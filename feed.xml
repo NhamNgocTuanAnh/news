@@ -1,0 +1,1988 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/feed.xml" rel="self" type="application/atom+xml" /><link href="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/" rel="alternate" type="text/html" /><updated>2022-11-26T05:55:59+08:00</updated><id>https://chriskyfung.github.io/amp-affiliately-jekyll-theme/feed.xml</id><title type="html">AMP Affiliately Jekyll Theme</title><subtitle>Tin tức nổi bật</subtitle><entry><title type="html">Plugins and Extensions</title><link href="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/plugins/" rel="alternate" type="text/html" title="Plugins and Extensions" /><published>2021-09-08T12:00:00+08:00</published><updated>2021-09-08T12:00:00+08:00</updated><id>https://chriskyfung.github.io/amp-affiliately-jekyll-theme/plugins</id><content type="html" xml:base="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/plugins/"><![CDATA[<aside style="position: relative;">
+    <a href="#toc-skipped" class="screen-reader-only">Skip table of contents</a>
+</aside>
+
+<h2 class="no_toc" id="table-of-contents">Table of Contents</h2>
+
+<ul id="markdown-toc">
+  <li><a href="#-github-pages-whitelisted-plugins" id="markdown-toc--github-pages-whitelisted-plugins"><i class="fas fa-cubes fa-fw"></i> GitHub Pages’ Whitelisted Plugins</a>    <ul>
+      <li><a href="#-github-metadata" id="markdown-toc--github-metadata"><i class="fab fa-github fa-fw"></i> GitHub Metadata</a></li>
+      <li><a href="#-jekyll-feed" id="markdown-toc--jekyll-feed"><i class="fas fa-rss fa-fw"></i> Jekyll Feed</a></li>
+      <li><a href="#-jekyll-gist" id="markdown-toc--jekyll-gist"><i class="fab fa-github-alt fa-fw"></i> Jekyll Gist</a></li>
+      <li><a href="#-jekyll-paginate" id="markdown-toc--jekyll-paginate"><i class="fas fa-sort fa-rotate-90 fa-fw"></i> Jekyll Paginate</a></li>
+      <li><a href="#-jekyll-redirect-from" id="markdown-toc--jekyll-redirect-from"><i class="fas fa-directions fa-fw"></i> Jekyll Redirect From</a></li>
+      <li><a href="#-jekyll-relative-links" id="markdown-toc--jekyll-relative-links"><i class="fas fa-anchor fa-fw"></i> Jekyll Relative Links</a></li>
+      <li><a href="#-jekyll-seo-tag" id="markdown-toc--jekyll-seo-tag"><i class="fab fa-searchengin fa-fw"></i> Jekyll SEO Tag</a></li>
+      <li><a href="#-jekyll-sitemap" id="markdown-toc--jekyll-sitemap"><i class="fas fa-sitemap fa-fw"></i> Jekyll sitemap</a></li>
+    </ul>
+  </li>
+  <li><a href="#-suggested-extensions" id="markdown-toc--suggested-extensions"><i class="fas fa-plug fa-fw"></i> Suggested Extensions</a>    <ul>
+      <li><a href="#-jekyll-archives" id="markdown-toc--jekyll-archives"><i class="fas fa-archive"></i> Jekyll Archives</a></li>
+      <li><a href="#-jekyll-loading-lazy-deprecated" id="markdown-toc--jekyll-loading-lazy-deprecated"><i class="fas fa-spinner fa-fw"></i> Jekyll Loading Lazy <sup>(Deprecated)</sup></a></li>
+      <li><a href="#-jekyll-minifier" id="markdown-toc--jekyll-minifier"><i class="fas fa-file-export fa-fw"></i> Jekyll Minifier</a></li>
+      <li><a href="#-jekyll-scholar" id="markdown-toc--jekyll-scholar"><i class="fas fa-graduation-cap fa-fw"></i> Jekyll Scholar</a>        <ul>
+          <li><a href="#use-ieee-citation-style-with-doi-hyperlink" id="markdown-toc-use-ieee-citation-style-with-doi-hyperlink">Use IEEE Citation Style with DOI Hyperlink</a>            <ul>
+              <li><a href="#in-text-example" id="markdown-toc-in-text-example"><strong>In-text example</strong></a></li>
+              <li><a href="#bibliography-example" id="markdown-toc-bibliography-example"><strong>Bibliography example</strong></a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<aside id="toc-skipped"></aside>
+
+<hr />
+
+<h2 id="-github-pages-whitelisted-plugins"><i class="fas fa-cubes fa-fw"></i> GitHub Pages’ Whitelisted Plugins</h2>
+
+<h3 id="-github-metadata"><i class="fab fa-github fa-fw"></i> GitHub Metadata</h3>
+
+<p>A Jekyll plugin to propagate the <code class="language-plaintext highlighter-rouge">site.github</code> namespace with <a href="https://github.com/jekyll/github-metadata/blob/master/docs/site.github.md">repository metadata</a>.</p>
+
+<p>See <a href="https://github.com/jekyll/github-metadata"><strong>github-metadata</strong></a>.</p>
+
+<h3 id="-jekyll-feed"><i class="fas fa-rss fa-fw"></i> Jekyll Feed</h3>
+
+<p>A Jekyll plugin to generate an Atom (RSS-like) feed of your Jekyll posts.</p>
+
+<p>See <a href="https://github.com/jekyll/jekyll-feed"><strong>jekyll-feed</strong></a>.</p>
+
+<h3 id="-jekyll-gist"><i class="fab fa-github-alt fa-fw"></i> Jekyll Gist</h3>
+
+<p>A Jekyll plugin to allow using <code class="language-plaintext highlighter-rouge">{% gist %}</code> tag for displaying GitHub Gists in Jekyll sites.</p>
+
+<p>See <a href="https://github.com/jekyll/jekyll-gist"><strong>jekyll-gist</strong></a>.</p>
+
+<h3 id="-jekyll-paginate"><i class="fas fa-sort fa-rotate-90 fa-fw"></i> Jekyll Paginate</h3>
+
+<p>Default pagination generator for Jekyll (See <a href="https://jekyllrb.com/docs/pagination/" title="Official Jekyll Documentation"><strong>Pagination</strong></a>).</p>
+
+<p><strong>Usage</strong>:</p>
+
+<ol>
+  <li><a href="/amp-affiliately-jekyll-theme/config-guide/#2021-08-02-config-guide">Setup the pagination</a> for posts on your blog in your <code class="language-plaintext highlighter-rouge">_config.yml</code> file.</li>
+  <li>
+    <p>Use the following code to render paginated posts and pagination links in an HTML file:</p>
+
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!-- Post Grid --&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"masonrygrid row listrecent"</span><span class="nt">&gt;</span>   
+{% for post in paginator.posts %}   
+   {% include blocks/post-box.html %}
+{% endfor %}   
+<span class="nt">&lt;/div&gt;</span> 
+<span class="c">&lt;!-- Pagination --&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"bottompagination"</span><span class="nt">&gt;</span>   
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"navigation"</span> <span class="na">role=</span><span class="s">"navigation"</span><span class="nt">&gt;</span>  
+   {% include blocks/pagination.html %}      
+<span class="nt">&lt;/span&gt;</span>   
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h3 id="-jekyll-redirect-from"><i class="fas fa-directions fa-fw"></i> Jekyll Redirect From</h3>
+
+<p>A Jekyll plugin to allow an author to specify multiple URLs for a page, such that the alternative URLs redirect to the new Jekyll URL.</p>
+
+<p>See <a href="https://github.com/jekyll/jekyll-redirect-from"><strong>jekyll-redirect-from</strong></a>.</p>
+
+<h3 id="-jekyll-relative-links"><i class="fas fa-anchor fa-fw"></i> Jekyll Relative Links</h3>
+
+<p>A Jekyll plugin to convert relative links to Markdown files to their rendered equivalents.</p>
+
+<p>See <a href="https://github.com/benbalter/jekyll-relative-links/"><strong>jekyll-relative-links</strong></a>.</p>
+
+<p><strong>Note</strong>: Recommend to use the <a href="https://jekyllrb.com/docs/liquid/tags/#link"><code class="language-plaintext highlighter-rouge">link</code></a> and <a href="https://jekyllrb.com/docs/liquid/tags/#linking-to-posts"><code class="language-plaintext highlighter-rouge">post_url</code></a> Jekyll tags to instead.</p>
+
+<h3 id="-jekyll-seo-tag"><i class="fab fa-searchengin fa-fw"></i> Jekyll SEO Tag</h3>
+
+<p><a href="https://github.com/jekyll/jekyll-seo-tag"><strong>jekyll-seo-tag</strong></a> is a Jekyll plugin to add metadata tags for search engines and social networks to better index and display your site’s content. It provides rich settings for site-level and on-page SEO.</p>
+
+<p>💡 Also, read the <a href="/amp-affiliately-jekyll-theme/config-guide/#seo-configuration">Config Guide</a> and the <a href="/amp-affiliately-jekyll-theme/front-matter-guide/#on-page-seo">Front Matter Guide</a> to learn more about the basic usages within this theme and on-page SEO for post metadata, respectively.</p>
+
+<h3 id="-jekyll-sitemap"><i class="fas fa-sitemap fa-fw"></i> Jekyll sitemap</h3>
+
+<p>Default sitemap generator for Jekyll. See <a href="https://github.com/jekyll/jekyll-sitemap"><strong>jekyll-sitemap</strong></a>.</p>
+
+<hr />
+
+<h2 id="-suggested-extensions"><i class="fas fa-plug fa-fw"></i> Suggested Extensions</h2>
+
+<h3 id="-jekyll-archives"><i class="fas fa-archive"></i> Jekyll Archives</h3>
+
+<p>A Jekyll plugin to automatically generate post archives by dates, tags, and categories.</p>
+
+<p>See <a href="https://github.com/jekyll/jekyll-archives"><strong>jekyll-archives</strong></a>.</p>
+
+<p><strong>NOTE</strong>: Jekyll Scholar is not a GitHub Pages’ <a href="https://pages.github.com/versions/">whitelisted plugins</a>.</p>
+
+<p>Add the following example to your <code class="language-plaintext highlighter-rouge">_config.yml</code> file will enable category and tag archives:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># _config.yml</span>
+<span class="na">jekyll-archives</span><span class="pi">:</span>
+  <span class="na">enabled</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="s">categories</span>
+    <span class="pi">-</span> <span class="s">tags</span>
+  <span class="na">layout</span><span class="pi">:</span> <span class="s">archive</span>
+  <span class="na">permalinks</span><span class="pi">:</span> 
+    <span class="na">category</span><span class="pi">:</span> <span class="s1">'</span><span class="s">/category/:name/'</span>
+    <span class="na">tag</span><span class="pi">:</span> <span class="s1">'</span><span class="s">/tag/:name/'</span>
+</code></pre></div></div>
+
+<h3 id="-jekyll-loading-lazy-deprecated"><i class="fas fa-spinner fa-fw"></i> Jekyll Loading Lazy <sup>(Deprecated)</sup></h3>
+
+<p><a href="https://github.com/gildesmarais/jekyll-loading-lazy"><strong>jekyll-loading-lazy</strong></a> is a Jekyll plugin to load images on your sites lazily without JavaScript by automatically adding <code class="language-plaintext highlighter-rouge">loading="lazy"</code> to <code class="language-plaintext highlighter-rouge">&lt;img&gt;</code> and <code class="language-plaintext highlighter-rouge">&lt;iframe&gt;</code> tags.</p>
+
+<p><strong>NOTE</strong>: Jekyll Scholar is not a GitHub Pages’ <a href="https://pages.github.com/versions/">whitelisted plugins</a>.</p>
+
+<p>You don’t need to use this plugin because, in this theme, all AMP elements are always lazy-loaded.</p>
+
+<h3 id="-jekyll-minifier"><i class="fas fa-file-export fa-fw"></i> Jekyll Minifier</h3>
+
+<p>A Jekyll plugin to minifies HTML, XML, CSS, JSON and JavaScript both inline and as separate files.</p>
+
+<p>See <a href="https://github.com/digitalsparky/jekyll-minifier"><strong>jekyll-minifier</strong></a>.</p>
+
+<p><strong>NOTE</strong>: Jekyll Scholar is not a GitHub Pages’ <a href="https://pages.github.com/versions/">whitelisted plugins</a>.</p>
+
+<h3 id="-jekyll-scholar"><i class="fas fa-graduation-cap fa-fw"></i> Jekyll Scholar</h3>
+
+<p>A Jekyll plugin for formatting your citations and bibliographies for your blog posts from BibTeX entities (See <a href="https://github.com/inukshuk/jekyll-scholar"><strong>jekyll-scholar</strong></a>).</p>
+
+<p>Starting from <span class="badge badge-success">v2.1.2-alpha</span>, this theme provides CSS styling for the Jekyll-Scholar generated citation links and a custom bibliography template for rendering DOI hyperlinks.</p>
+
+<p><strong>NOTE</strong>: Jekyll Scholar is not a GitHub Pages’ <a href="https://pages.github.com/versions/">whitelisted plugins</a>.</p>
+
+<p>Follow <a href="https://github.com/inukshuk/jekyll-scholar">Jekyll Scholar’s documentation</a> to install and configure the Jekyll-Scholar settings in your <code class="language-plaintext highlighter-rouge">_config.yml</code> file.</p>
+
+<h4 id="use-ieee-citation-style-with-doi-hyperlink">Use IEEE Citation Style with DOI Hyperlink</h4>
+
+<p>The <a href="https://ieeeauthorcenter.ieee.org/wp-content/uploads/IEEE-Reference-Guide.pdf">IEEE citation style</a> is the standard referencing format set by The <a href="https://www.ieee.org/">Institute of Electrical and Electronics Engineers</a>. It is widely used in publishing journals, magazines, and conference proceedings for engineering, computer science, and information technology industries.</p>
+
+<p>The <a href="https://apastyle.apa.org/style-grammar-guidelines/references/dois-urls">Digital Object Identifier (DOI)</a> is a persistent identifier assigned by the International DOI Foundation to identify content on the internet. It is useful for readers to find academic, professional, and government information, such as journal articles, research reports, data sets, and official publications that are available online.</p>
+
+<p>By default, the Jekyll Scholar renders DOIs as plain text inside bibliographies. But you can change it to hyperlinks by using the following configuration:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># _config.yml</span>
+<span class="na">scholar</span><span class="pi">:</span>
+  <span class="na">style</span><span class="pi">:</span> <span class="s1">'</span><span class="s">_bibliography/ieee-without-doi-and-index.csl'</span>
+  <span class="na">bibliography_template</span><span class="pi">:</span> <span class="s">bib</span>
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <h5 id="in-text-example"><strong>In-text example</strong></h5>
+
+    <p><code class="language-plaintext highlighter-rouge">You can build a website using GitHub Pages {% cite Utomo_2020 %}</code></p>
+
+    <p><strong>Output</strong>:</p>
+
+    <p><samp>You can build a website using GitHub Pages <a class="citation" href="#Utomo_2020">[1]</a>.</samp></p>
+  </li>
+  <li>
+    <h5 id="bibliography-example"><strong>Bibliography example</strong></h5>
+
+    <p><code class="language-plaintext highlighter-rouge">{% bibliography --cited %}</code></p>
+
+    <p><strong>Output</strong>:</p>
+
+    <p><samp>
+    <ol class="bibliography">
+    <li>
+    <span id="Utomo_2020">P. Utomo and Falahah, “Building Serverless Website on GitHub Pages,” <i>IOP Conference Series: Materials Science and Engineering</i>, vol. 879, p. 012077, Aug. 2020,</span> doi: <a data-vars-event-label="https://doi.org/10.1088/1757-899x/879/1/012077" href="https://doi.org/10.1088/1757-899x/879/1/012077">10.1088/1757-899x/879/1/012077</a>.
+    </li>
+    </ol>
+    </samp>
+ </p>
+  </li>
+</ul>]]></content><author><name></name></author><category term="[&quot;doc&quot;]" /><category term="plugin" /><category term="_config" /><summary type="html"><![CDATA[List of Jekyll plugins being used and/or supported by this AMP Jekyll theme]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/puzzle-3311601.svg" /><media:content medium="image" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/puzzle-3311601.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Config Guide</title><link href="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/config-guide/" rel="alternate" type="text/html" title="Config Guide" /><published>2021-08-24T00:01:00+08:00</published><updated>2021-08-23T23:00:00+08:00</updated><id>https://chriskyfung.github.io/amp-affiliately-jekyll-theme/config-guide</id><content type="html" xml:base="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/config-guide/"><![CDATA[<aside style="position: relative;">
+    <a href="#toc-skipped" class="screen-reader-only">Skip table of contents</a>
+</aside>
+
+<h2 class="no_toc" id="table-of-contents">Table of Contents</h2>
+
+<ul id="markdown-toc">
+  <li><a href="#-use-amp-affiliately-theme-as-remote-theme" id="markdown-toc--use-amp-affiliately-theme-as-remote-theme"><i class="fas fa-puzzle-piece fa-fw"></i> Use Amp Affiliately Theme As Remote Theme</a></li>
+  <li><a href="#-global-configuration" id="markdown-toc--global-configuration"><i class="fas fa-cogs fa-fw"></i> Global Configuration</a></li>
+  <li><a href="#-theme-configuration" id="markdown-toc--theme-configuration"><i class="fas fa-paint-roller fa-fw"></i> Theme Configuration</a>    <ul>
+      <li><a href="#navigation-bar-settings" id="markdown-toc-navigation-bar-settings">Navigation Bar Settings</a>        <ul>
+          <li><a href="#settings-for-global-menu-items" id="markdown-toc-settings-for-global-menu-items">Settings for Global Menu Items</a></li>
+          <li><a href="#settings-for-local-menu-items" id="markdown-toc-settings-for-local-menu-items">Settings for Local Menu Items</a></li>
+        </ul>
+      </li>
+      <li><a href="#list-sorting-options-v23" id="markdown-toc-list-sorting-options-v23">List Sorting Options <span class="badge badge-default">v2.3</span></a></li>
+      <li><a href="#post-processing-options-v20" id="markdown-toc-post-processing-options-v20">Post-Processing Options <span class="badge badge-default">v2.0</span></a>        <ul>
+          <li><a href="#-add-anchor-link-for-h2-h3-and-h4-headings" id="markdown-toc--add-anchor-link-for-h2-h3-and-h4-headings"><i class="fas fa-link fa-fw"></i> Add Anchor Link For H2, H3 And H4 Headings</a></li>
+          <li><a href="#-modify-external-links-to-open-in-new-tab" id="markdown-toc--modify-external-links-to-open-in-new-tab"><i class="fas fa-door-open fa-fw"></i> Modify External Links To Open In New Tab</a></li>
+        </ul>
+      </li>
+      <li><a href="#sidebar-options" id="markdown-toc-sidebar-options">Sidebar Options</a>        <ul>
+          <li><a href="#-site-wide-display-featured-and-recent-posts-sidebar-widgets-v12" id="markdown-toc--site-wide-display-featured-and-recent-posts-sidebar-widgets-v12"><i class="fas fa-layer-group fa-fw"></i> Site-Wide Display Featured And Recent Posts Sidebar Widgets <span class="badge badge-default">v1.2</span></a></li>
+        </ul>
+      </li>
+      <li><a href="#footer-options-v20" id="markdown-toc-footer-options-v20">Footer Options <span class="badge badge-default">v2.0</span></a></li>
+      <li><a href="#seo-configuration" id="markdown-toc-seo-configuration">SEO Configuration</a></li>
+      <li><a href="#options-for-third-party-components" id="markdown-toc-options-for-third-party-components">Options For Third-Party Components</a>        <ul>
+          <li><a href="#-google-services" id="markdown-toc--google-services"><i class="fab fa-google fa-fw"></i> Google Services</a>            <ul>
+              <li><a href="#-google-analytics" id="markdown-toc--google-analytics"><i class="far fa-chart-bar fa-fw"></i> Google Analytics</a></li>
+              <li><a href="#-google-custom-search-engine-cse" id="markdown-toc--google-custom-search-engine-cse"><i class="fab fa-searchengin fa-fw"></i> Google Custom Search Engine (CSE)</a></li>
+              <li><a href="#-google-adsense" id="markdown-toc--google-adsense"><i class="fas fa-ad fa-fw"></i> Google Adsense</a></li>
+              <li><a href="#-google-tag-manager-gtm" id="markdown-toc--google-tag-manager-gtm"><i class="fas fa-expand fa-fw" style="transform: rotate(45deg)"></i> Google Tag Manager (GTM)</a></li>
+            </ul>
+          </li>
+          <li><a href="#-github" id="markdown-toc--github"><i class="fab fa-github fa-fw"></i> GitHub</a></li>
+          <li><a href="#-show-github-metadata-widget-in-sidebar-v20" id="markdown-toc--show-github-metadata-widget-in-sidebar-v20"><i class="fab fa-github-square fa-fw"></i> Show Github Metadata Widget in Sidebar <span class="badge badge-default">v2.0</span></a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<aside id="toc-skipped"></aside>
+
+<hr />
+
+<h2 id="-use-amp-affiliately-theme-as-remote-theme"><i class="fas fa-puzzle-piece fa-fw"></i> Use Amp Affiliately Theme As Remote Theme</h2>
+
+<ol>
+  <li>
+    <p>Add <code class="language-plaintext highlighter-rouge">jekyll-remote-theme</code> as an array-value of the key <code class="language-plaintext highlighter-rouge">plugins</code> in your site’s <code class="language-plaintext highlighter-rouge">_config.yml</code> file, like this:</p>
+
+    <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">plugins</span><span class="pi">:</span>
+   <span class="pi">-</span> <span class="s">jekyll-remote-theme</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Add <code class="language-plaintext highlighter-rouge">gem "jekyll-remote-theme"</code> to the Bundler group your <strong>Gemfile</strong>, like this:</p>
+
+    <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">group</span> <span class="ss">:jekyll_plugins</span> <span class="k">do</span>
+   <span class="n">gem</span> <span class="s2">"jekyll-remote-theme"</span>
+   <span class="n">gem</span> <span class="s2">"another-jekyll-plugin"</span>
+<span class="k">end</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Run <code class="language-plaintext highlighter-rouge">bundle install</code> to install the plugin before building your site locally.</p>
+  </li>
+  <li>
+    <p>Add <code class="language-plaintext highlighter-rouge">remote_theme: chriskyfung/amp-affiliately-jekyll-theme</code> to your <code class="language-plaintext highlighter-rouge">_config.yml</code> file.</p>
+  </li>
+  <li>
+    <p>Add Theme Configuration to your <code class="language-plaintext highlighter-rouge">_config.yml</code> file.</p>
+  </li>
+</ol>
+
+<p><strong>Note</strong>: You must update the <code class="language-plaintext highlighter-rouge">jekyll-remote-theme</code> plugin to <code class="language-plaintext highlighter-rouge">v0.4.2</code> or higher if you use <strong>Jekyll 4.0+</strong>.</p>
+
+<p>You may also optionally specify a branch, tag, or commit to using by appending an <code class="language-plaintext highlighter-rouge">@</code> and the Git ref (e.g., <code class="language-plaintext highlighter-rouge">chriskyfung/amp-affiliately-jekyll-theme@v1.2.8</code>). If you don’t specify a Git ref, the master branch will be used.</p>
+
+<hr />
+
+<h2 id="-global-configuration"><i class="fas fa-cogs fa-fw"></i> Global Configuration</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Attribute</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">permalink</code></td>
+      <td><code class="language-plaintext highlighter-rouge">/:year/:month/:day/:title</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">timezone</code></td>
+      <td>Any entry from the <a href="https://en.wikipedia.org/wiki/Tz_database" title="Wikipedia">IANA Time Zone Database</a> is valid, e.g. America/New_York. A list of all available values can be found <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones" title="Wikipedia">here</a>.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">paginate</code></td>
+      <td>(<em>Optional</em>) The maximum number of posts you’d like to be displayed per-page in the generated site, e.g. <code class="language-plaintext highlighter-rouge">10</code>.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">paginate_path</code></td>
+      <td>(<em>Optional</em>) The destination of the pagination pages.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>💡 Learn More:</strong></p>
+
+<ul>
+  <li><a href="https://jekyllrb.com/docs/configuration/options/" title="Offical Jekyll Documentation">Configuration Options | Jekyllrb</a></li>
+  <li><a href="https://jekyllrb.com/docs/configuration/default/" title="Offical Jekyll Documentation">Default Configuration | Jekyllrb</a></li>
+  <li><a href="/amp-affiliately-jekyll-theme/plugins/#-jekyll-paginate">Render Paginated Posts</a></li>
+</ul>
+
+<hr />
+
+<h2 id="-theme-configuration"><i class="fas fa-paint-roller fa-fw"></i> Theme Configuration</h2>
+
+<p>You should include the following in the <code class="language-plaintext highlighter-rouge">_config.yml</code> file to set up the theme.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">Attribute</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">title</code></td>
+      <td>Your site’s title. Also, used as the text of the first menu item if <em><code class="language-plaintext highlighter-rouge">repostory</code></em> is configured in the <code class="language-plaintext highlighter-rouge">_config.yml</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">url</code></td>
+      <td>The web address of your site including the protocol, subdomain, and domain name, e.g. <code class="language-plaintext plaintext highlighter-rouge">https://yourdomain.com</code> or <code class="language-plaintext plaintext highlighter-rouge">https://www.yourdomain.com</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">baseurl</code></td>
+      <td>The first route parameter after your domain name in the URL, e.g. <code class="language-plaintext highlighter-rouge">''</code> if the site is deployed to <code class="language-plaintext plaintext highlighter-rouge">www.yourdomain.com</code> and <code class="language-plaintext plaintext highlighter-rouge">/repo-1</code> if the root is <code class="language-plaintext plaintext highlighter-rouge">www.yourdomain.com/repo-1/</code>.</td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">favicon</code></td>
+      <td>The path to the <a href="https://stackoverflow.com/questions/4888377/how-to-add-a-browser-tab-icon-favicon-for-a-website">favicon</a> file</td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">logo</code></td>
+      <td>The path to the (JPG/PNG/SVG) image that will be displayed on the navigation bar. The URL will also be included to JSON-LD structured data by <a href="https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md" title="GitHub">Jekyll SEO Tag</a>.</td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">name</code></td>
+      <td>Your site’s name used as the alt text of your logo image. Also, displayed in the copyright notice, if <em><code class="language-plaintext highlighter-rouge">copyright.owner</code></em> is not configured in the <code class="language-plaintext highlighter-rouge">_config.yml</code>.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Note</strong>: Regarding to <code class="language-plaintext highlighter-rouge">title</code> and <code class="language-plaintext highlighter-rouge">url</code>, please alse read the documentation of <a href="https://github.com/jekyll/jekyll-feed" title="GitHub">Jekyll Feed</a> and <a href="https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md" title="GitHub">Jekyll SEO Tag</a>.</p>
+
+<hr />
+
+<h3 id="navigation-bar-settings">Navigation Bar Settings</h3>
+
+<p>You will need to configure the navigation bar for this theme in the following hierarchy:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">nav</span><span class="pi">:</span>
+   <span class="na">global</span><span class="pi">:</span>
+      <span class="s">...</span> <span class="c1"># Settings for global/domain-Level menu items</span>
+      <span class="s">...</span>
+   <span class="na">local</span><span class="pi">:</span>
+      <span class="s">...</span> <span class="c1"># Settings for local/baseURL-level menu items</span>
+      <span class="s">...</span>
+</code></pre></div></div>
+
+<h4 id="settings-for-global-menu-items">Settings for Global Menu Items</h4>
+
+<p>GitHub Pages allows you to deploy your multiple project pages under the same domain with different base URLs. In case, you may want to a menu item for back to the domain-level homepage and/or some principal menu items sharing across the sites for consistency.
+The following options provide the granular control to those menu items:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Attribute</th>
+      <th>Property</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">global</code></td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td><code class="language-plaintext highlighter-rouge">home</code></td>
+      <td><span class="badge badge-success">v2.0</span> Set <code class="language-plaintext highlighter-rouge">false</code> to disable rendering <strong>HOME</strong> menu item in the navigation menu.<br /><em>Default:</em> <code class="language-plaintext plaintext highlighter-rouge">true</code>.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td><code class="language-plaintext highlighter-rouge">menu</code></td>
+      <td><span class="badge badge-success">v2.0</span> Set <code class="language-plaintext plaintext highlighter-rouge">true</code> to include menu items from <code class="language-plaintext highlighter-rouge">global-menu.html</code> for your entire site/domain.<br /><em>Default:</em> <code class="language-plaintext plaintext highlighter-rouge">false</code>.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td><code class="language-plaintext highlighter-rouge">dropdown</code></td>
+      <td><span class="badge badge-success">v1.7.2</span> Set <code class="language-plaintext highlighter-rouge">false</code> to exclude global dropdown menus from the global menu.<br /><em>Default:</em> <code class="language-plaintext plaintext highlighter-rouge">true</code>.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>When <code class="language-plaintext highlighter-rouge">home</code> is not set to <code class="language-plaintext highlighter-rouge">false</code>, the following extra settings will be available and become effective:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Property</th>
+      <th>Key</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">home</code></td>
+      <td> </td>
+      <td><span class="badge badge-success">v2.0</span></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td><code class="language-plaintext highlighter-rouge">location</code></td>
+      <td>The location of <strong>HOME</strong> button in the navigation menu.<br /><em>Options:</em> <code class="language-plaintext highlighter-rouge">menu-start</code> or <code class="language-plaintext highlighter-rouge">menu-end</code>. <em>Default:</em> <code class="language-plaintext plaintext highlighter-rouge">menu-start</code>.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td><code class="language-plaintext highlighter-rouge">text</code></td>
+      <td>The text to display on the home menu item <em>Default:</em> <code class="language-plaintext plaintext highlighter-rouge">Home</code>.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="settings-for-local-menu-items">Settings for Local Menu Items</h4>
+
+<p>Use the following options to configure the menu items that will be shown on the webpages under the same base URL.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Attribute</th>
+      <th>Property</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">local</code></td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td><code class="language-plaintext highlighter-rouge">max_title_length</code></td>
+      <td><span class="badge badge-success">v2.0</span> The maximun number of characters to display <em><code class="language-plaintext highlighter-rouge">site.title</code></em> in the navigation bar.<em>Default</em>: <code class="language-plaintext plaintext highlighter-rouge">40</code>.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td><code class="language-plaintext highlighter-rouge">items</code></td>
+      <td><span class="badge badge-success">v1.7.2</span> An array of simple menu items that consists of the <code class="language-plaintext highlighter-rouge">name</code> and <code class="language-plaintext highlighter-rouge">url</code> key-value pairs.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td><code class="language-plaintext highlighter-rouge">menu</code></td>
+      <td><span class="badge badge-success">v1.7.2</span> Set <code class="language-plaintext plaintext highlighter-rouge">true</code> to include menu items from <code class="language-plaintext highlighter-rouge">local-menu.html</code>.<br /><em>Default:</em> <code class="language-plaintext plaintext highlighter-rouge">false</code>.</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h3 id="list-sorting-options-v23">List Sorting Options <span class="badge badge-default">v2.3</span></h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Attribute</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">sort_categories</code></td>
+      <td>Set <code class="language-plaintext plaintext highlighter-rouge">false</code> to disable sorting the items of post’s categories.<br /> <em>Default:</em> <code class="language-plaintext plaintext highlighter-rouge">true</code>.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">sort_tags</code></td>
+      <td>Set <code class="language-plaintext plaintext highlighter-rouge">false</code> to disable sorting the items of post’s tags.<br /> <em>Default:</em> <code class="language-plaintext plaintext highlighter-rouge">true</code>.</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h3 id="post-processing-options-v20">Post-Processing Options <span class="badge badge-default">v2.0</span></h3>
+
+<h4 id="-add-anchor-link-for-h2-h3-and-h4-headings"><i class="fas fa-link fa-fw"></i> Add Anchor Link For H2, H3 And H4 Headings</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Attribute</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">anchor_link</code></td>
+      <td>Set <code class="language-plaintext plaintext highlighter-rouge">true</code> to attach an anchor link to H2-H4 elements inside posts’ content similar to <a href="https://www.bryanbraun.com/anchorjs/">AnchorJS</a> (<a href="/amp-affiliately-jekyll-theme/post-processing/#add-anchor-link-for-h2-h3-and-h4-headings">View Demo</a>).<br /> <em>Default:</em> <code class="language-plaintext plaintext highlighter-rouge">false</code>.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="-modify-external-links-to-open-in-new-tab"><i class="fas fa-door-open fa-fw"></i> Modify External Links To Open In New Tab</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Attribute</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">target_blank</code></td>
+      <td>Set <code class="language-plaintext plaintext highlighter-rouge">true</code> to insert <code class="language-plaintext plaintext highlighter-rouge">rel="noopener noreferrer"</code> and <code class="language-plaintext plaintext highlighter-rouge">target="_blank"</code> to each <code class="language-plaintext plaintext highlighter-rouge">&lt;a&gt;</code> element that links to an outbound URL <i class="fas fa-external-link-alt"></i> inside posts’ content.<br /> <em>Default:</em> <code class="language-plaintext plaintext highlighter-rouge">false</code>.</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h3 id="sidebar-options">Sidebar Options</h3>
+
+<h4 id="-site-wide-display-featured-and-recent-posts-sidebar-widgets-v12"><i class="fas fa-layer-group fa-fw"></i> Site-Wide Display Featured And Recent Posts Sidebar Widgets <span class="badge badge-default">v1.2</span></h4>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Attribute</th>
+      <th>Property</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">sidebar</code></td>
+      <td> </td>
+      <td><span class="badge badge-success">v1.2</span> Enable/disable built-in the following sidebar widgets:</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td><code class="language-plaintext highlighter-rouge">featured</code></td>
+      <td>Add <strong>FEATURED</strong> widget to sidebar.<br /> <em>Default:</em> <code class="language-plaintext plaintext highlighter-rouge">true</code>.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td><code class="language-plaintext highlighter-rouge">recent_posts</code></td>
+      <td>Add <strong>RECENT POSTS</strong> widget to sidebar.<br /> <em>Default:</em> <code class="language-plaintext plaintext highlighter-rouge">true</code>.</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>Set <code class="language-plaintext highlighter-rouge">false</code> to disable the widgets as you need</li>
+</ul>
+
+<hr />
+
+<h3 id="footer-options-v20">Footer Options <span class="badge badge-default">v2.0</span></h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Attribute</th>
+      <th>Property</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">copyright</code></td>
+      <td> </td>
+      <td>Your custom setting of copyright notice:</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td><code class="language-plaintext highlighter-rouge">prepend</code></td>
+      <td><span class="badge badge-success">v2.0</span> The text prepend to the year.<br /> <em>Default:</em> <code class="language-plaintext plaintext highlighter-rouge">Copyright © </code>.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td><code class="language-plaintext highlighter-rouge">owner</code></td>
+      <td>The name of the copyright holder.<br /> <em>Default:</em> <em><code class="language-plaintext highlighter-rouge">site.name</code></em>.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td><code class="language-plaintext highlighter-rouge">link</code></td>
+      <td>The URL to go when clicking on the copyright notice.<br /> <em>Default:</em> <code class="language-plaintext plaintext highlighter-rouge">/</code>.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td><code class="language-plaintext highlighter-rouge">append</code></td>
+      <td><span class="badge badge-success">v2.0</span> The text at the end of the copyright notice.<br /> <em>Default:</em> <code class="language-plaintext plaintext highlighter-rouge">. All rights reserved.</code>.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Default format:</strong></p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+{{ prepend }}{{ CURRENT YEAR }} <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"{{ link }}"</span><span class="nt">&gt;</span>{{ owner }}<span class="nt">&lt;a&gt;</span>{{ append }}
+
+</code></pre></div></div>
+
+<blockquote>
+  <p>Copyright © 2021 <a href="https://chriskyfung.github.io">Chris KY FUNG’s Blog</a>. All rights reserved.</p>
+</blockquote>
+
+<p><strong>Example 1:</strong></p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">copyright</span><span class="pi">:</span>
+   <span class="na">prepend</span><span class="pi">:</span> <span class="s2">"</span><span class="s">©</span><span class="nv"> </span><span class="s">2020-"</span>
+   <span class="na">owner</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Chris</span><span class="nv"> </span><span class="s">KY</span><span class="nv"> </span><span class="s">FUNG"</span>
+   <span class="na">link</span><span class="pi">:</span> <span class="s">https://github.com/chriskyfung/</span>
+</code></pre></div></div>
+
+<blockquote>
+  <p>© 2020-2021 <a href="https://github.com/chriskyfung/">Chris KY FUNG</a>. All rights reserved.</p>
+</blockquote>
+
+<p><strong>Example 2:</strong></p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">copyright</span><span class="pi">:</span>
+   <span class="na">prepend</span><span class="pi">:</span> <span class="s2">"</span><span class="s">GitHub</span><span class="nv"> </span><span class="s">©"</span>
+   <span class="na">owner</span><span class="pi">:</span> <span class="s2">"</span><span class="s">"</span>
+   <span class="na">append</span><span class="pi">:</span> <span class="s2">"</span><span class="s">"</span>
+</code></pre></div></div>
+
+<blockquote>
+  <p>Github © 2021</p>
+</blockquote>
+
+<hr />
+
+<h3 id="seo-configuration">SEO Configuration</h3>
+
+<p><strong>AMP Affiliately Theme</strong> uses <a href="https://github.com/jekyll/jekyll-seo-tag">Jekyll SEO Tag</a> to output machine-readable metadata for search engines and social networks to index and display. The following is recommended to configure in the <code class="language-plaintext highlighter-rouge">_config.yml</code> file:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Attribute</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">author</code></td>
+      <td>Global author informaiton</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">description</code></td>
+      <td>A longer description used for the description meta tag</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">locate</code></td>
+      <td>The locale these tags are marked up in. Default is <code class="language-plaintext plaintext highlighter-rouge">en_US</code>. Takes priority over existing config key lang</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">tagline</code></td>
+      <td>A short description used as part of the title tag</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>💡 Learn more about the usage of the SEO tag plugin from <a href="https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md" title="GitHub">here</a>.</p>
+
+<p><strong>Note</strong>: Regarding to <code class="language-plaintext highlighter-rouge">author</code> and <code class="language-plaintext highlighter-rouge">description</code>, please alse read the documentation of <a href="https://github.com/jekyll/jekyll-feed" title="GitHub">Jekyll Feed</a> and <a href="https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md" title="GitHub">Jekyll SEO Tag</a>.</p>
+
+<p>Moreover, it is a good idea to set a default image using <a href="https://jekyllrb.com/docs/configuration/front-matter-defaults/">Front Matter defaults</a>, provide a default <a href="https://developers.facebook.com/docs/sharing/webmasters/">Open Graph</a> image (<code class="language-plaintext highlighter-rouge">og:image</code>) and <a href="https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary-card-with-large-image">Twitter Card</a> image (<code class="language-plaintext highlighter-rouge">twitter:image</code>) to all of your posts and pages.</p>
+
+<p>Here is a basic example from <a href="https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md#author-information">Jekyll SEO Tag’s Advanced usage</a>:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">defaults</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">scope</span><span class="pi">:</span>
+      <span class="na">path</span><span class="pi">:</span> <span class="s2">"</span><span class="s">"</span>
+    <span class="na">values</span><span class="pi">:</span>
+      <span class="na">image</span><span class="pi">:</span> <span class="s">/assets/images/default-card.png</span>
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="options-for-third-party-components">Options For Third-Party Components</h3>
+
+<h4 id="-google-services"><i class="fab fa-google fa-fw"></i> Google Services</h4>
+
+<h5 id="-google-analytics"><i class="far fa-chart-bar fa-fw"></i> Google Analytics</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Attribute</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">google_analytics</code></td>
+      <td>Your (<code class="language-plaintext plaintext highlighter-rouge">UA-</code>) Tracking ID 💡 <a href="https://support.google.com/analytics/answer/1008080#trackingID" title="Set up the Analytics global site tag - Analytics Help">Find your Google Analytics ID</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>
+    <p><strong>Note:</strong> Google Analytics 4 (GA4) is not yet supported in AMP.</p>
+  </li>
+  <li>
+    <p>When <code class="language-plaintext highlighter-rouge">google_analytics</code> is configured, an attribute called <code class="language-plaintext plaintext highlighter-rouge">data-vars-event-label</code> will be added to every <code class="language-plaintext plaintext highlighter-rouge">&lt;a&gt;</code> tag that links to an external URL by the post-processing of posts’ content.</p>
+  </li>
+</ul>
+
+<h5 id="-google-custom-search-engine-cse"><i class="fab fa-searchengin fa-fw"></i> Google Custom Search Engine (CSE)</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Attribute</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">cse_id</code></td>
+      <td>Your Search Engine ID 💡 <a href="https://support.google.com/programmable-search/answer/2649143" title="Search engine ID - Programmable Search Engine Help">Find your Google CSE ID</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li><strong>Note:</strong> Essential to feature the site’s search function</li>
+</ul>
+
+<h5 id="-google-adsense"><i class="fas fa-ad fa-fw"></i> Google Adsense</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Attribute</th>
+      <th>Property</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">adsense</code></td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td><code class="language-plaintext highlighter-rouge">client_id</code></td>
+      <td>Your Google Adsense client ID, which starts with <code class="language-plaintext plaintext highlighter-rouge">ca-pub-</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td><code class="language-plaintext highlighter-rouge">auto_ads</code></td>
+      <td>Set <code class="language-plaintext highlighter-rouge">false</code> to disable <a href="https://support.google.com/adsense/answer/9261805">Auto ads</a> in Adsense<br /><em>Default:</em> <code class="language-plaintext plaintext highlighter-rouge">true</code>.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td><code class="language-plaintext highlighter-rouge">ad_slot</code></td>
+      <td><code class="language-plaintext highlighter-rouge">before_content</code> - Slot ID of ad unit that places before content<br /><code class="language-plaintext highlighter-rouge">sidebar</code> - Slot ID of ad unit that places to sidebar</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">adstyle</code></td>
+      <td> </td>
+      <td>Set <code class="language-plaintext highlighter-rouge">false</code> to not apply custom styles to indicate empty Ad containers.<br /><em>Default:</em> <code class="language-plaintext plaintext highlighter-rouge">true</code>.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>💡 Read the <a href="/amp-affiliately-jekyll-theme/ads-settings/">Ads Settings</a> documentation</p>
+
+<h5 id="-google-tag-manager-gtm"><i class="fas fa-expand fa-fw" style="transform: rotate(45deg)"></i> Google Tag Manager (GTM)</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Attribute</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">gtm</code></td>
+      <td>Your GTM AMP container ID</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h4 id="-github"><i class="fab fa-github fa-fw"></i> GitHub</h4>
+
+<h4 id="-show-github-metadata-widget-in-sidebar-v20"><i class="fab fa-github-square fa-fw"></i> Show Github Metadata Widget in Sidebar <span class="badge badge-default">v2.0</span></h4>
+
+<p>This theme supports rendering GitHub Metadata by using the <a href="https://github.com/jekyll/github-metadata">jekyll-github-metadata</a> plugin. When you associate it with a GitHUb project repo, a sidebar widget named <strong>RESOURCES</strong> with a button link to the GitHub repository will be shown on the page.</p>
+
+<p>You have to declare the repository name in the <code class="language-plaintext highlighter-rouge">_config.yml</code> file, like this:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Attribute</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">Repository</code></td>
+      <td><span class="badge badge-success">v1.2</span> Declare The Repository Name in the <code class="language-plaintext plaintext highlighter-rouge">&lt;Username&gt;/&lt;Project&gt;</code>.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">resources_widget</code></td>
+      <td><span class="badge badge-success">v2.0</span> Enable side-widely display <strong>Resourece</strong> widget in sidebar.<br /> <em>Default:</em> <code class="language-plaintext plaintext highlighter-rouge">true</code>.</td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name></name></author><category term="[&quot;doc&quot;]" /><category term="_config" /><summary type="html"><![CDATA[The docs for the theme settings that let you control the global styling like logo, navigation, sidebar, footer, pagnitation, etc.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/settings-3311592.svg" /><media:content medium="image" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/settings-3311592.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Post-Processing</title><link href="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/post-processing/" rel="alternate" type="text/html" title="Post-Processing" /><published>2021-08-15T23:15:00+08:00</published><updated>2021-08-22T09:41:00+08:00</updated><id>https://chriskyfung.github.io/amp-affiliately-jekyll-theme/postprocessing</id><content type="html" xml:base="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/post-processing/"><![CDATA[<h2 id="add-anchor-link-for-h2-h3-and-h4-headings">Add Anchor Link For H2, H3 And H4 Headings</h2>
+
+<p>Starting from <span class="badge badge-success">v2.0</span>, it is enable to attach an anchor link to <strong>H2</strong>-<strong>H4</strong> elements inside posts’ content similar to <a href="https://www.bryanbraun.com/anchorjs/">AnchorJS</a> with no dependencies. See the <a href="/amp-affiliately-jekyll-theme/config-guide/#-add-anchor-link-for-h2-h3-and-h4-headings">Config Guide</a> if you perfer to disable this feature in your site.</p>
+
+<p><strong>Examples</strong></p>
+
+<section class="card card-block">
+
+<h2 id="h2-heading">H2 Heading</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<h3 id="h3-heading">H3 Heading</h3>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<h4 id="h4-heading">H4 Heading</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<h5 id="h5-heading-no-anchor">H5 Heading (<em>no anchor</em>)</h5>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<h6 id="h6-heading-no-anchor">H6 Heading (<em>no anchor</em>)</h6>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+</section>
+
+<h2 id="link-modifier">Link Modifier</h2>
+
+<p>To enable outbound link tracking with Google Analytics in AMP, you need to insert a <code class="language-plaintext highlighter-rouge">data-vars-event-label</code> attribute to external links.</p>
+
+<p>Starting from <span class="badge badge-success">v2.0</span>, this theme replace the non-whitelist <code class="language-plaintext highlighter-rouge">jekyll-target-blank.rb</code> plugin with pure Liquid templating language to modify the links.</p>
+
+<p>See the <a href="/amp-affiliately-jekyll-theme/config-guide/#-modify-external-links-to-open-in-new-tab">Config Guide</a> if you also want to set opening the external links in a new tab.</p>
+
+<p><strong>Examples</strong></p>
+
+<section class="card card-block">
+
+<h3 id="regular-text-link">regular text link</h3>
+
+<p><a href="https://github.com/chriskyfung/amp-affiliately-jekyll-theme">external link</a></p>
+
+<h3 id="bold"><strong>bold</strong></h3>
+
+<p><a href="https://github.com/chriskyfung/amp-affiliately-jekyll-theme"><strong>external link</strong></a></p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<h3 id="code"><code class="language-plaintext highlighter-rouge">code</code></h3>
+
+<p><a href="https://github.com/chriskyfung/amp-affiliately-jekyll-theme"><code class="language-plaintext highlighter-rouge">external link</code></a></p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<h3 id="italic"><em>italic</em></h3>
+
+<p><a href="https://github.com/chriskyfung/amp-affiliately-jekyll-theme"><em>external link</em></a></p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<h3 id="bold-and-italic"><em><strong>bold and italic</strong></em></h3>
+
+<p><a href="https://github.com/chriskyfung/amp-affiliately-jekyll-theme"><em><strong>external link</strong></em></a></p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<h3 id="image-in-amp">Image in AMP</h3>
+
+<figure><a href="https://github.com/chriskyfung/amp-affiliately-jekyll-theme"><amp-img width="96" height="96" layout="intrinsic" src="/amp-affiliately-jekyll-theme/assets/images/favicon_96x96.webp" alt="Image in Post-Processing">
+        <amp-img fallback="" width="96" height="96" layout="intrinsic" src="/amp-affiliately-jekyll-theme/assets/images/favicon_96x96.png" alt="Image in Post-Processing"></amp-img>
+      </amp-img></a></figure>
+
+
+</section>]]></content><author><name></name></author><category term="[&quot;feature&quot;]" /><category term="styles" /><category term="demo" /><summary type="html"><![CDATA[The demo and test page of the Anchor Links for headings and the Link Modifier on various Markdown styles.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/processing_o128.png" /><media:content medium="image" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/processing_o128.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Front Matter Guide</title><link href="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/front-matter-guide/" rel="alternate" type="text/html" title="Front Matter Guide" /><published>2021-07-31T12:05:00+08:00</published><updated>2021-09-28T15:00:00+08:00</updated><id>https://chriskyfung.github.io/amp-affiliately-jekyll-theme/front-matter</id><content type="html" xml:base="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/front-matter-guide/"><![CDATA[<aside style="position: relative;">
+    <a href="#toc-skipped" class="screen-reader-only">Skip table of contents</a>
+</aside>
+
+<h2 class="no_toc" id="table-of-contents">Table of Contents</h2>
+
+<ul id="markdown-toc">
+  <li><a href="#general-front-matters-for-a-post" id="markdown-toc-general-front-matters-for-a-post">General Front Matters for A Post</a></li>
+  <li><a href="#set-featured-image" id="markdown-toc-set-featured-image">Set Featured Image</a>    <ul>
+      <li><a href="#hide-featured-image-on-a-pagepost" id="markdown-toc-hide-featured-image-on-a-pagepost">Hide Featured Image on a Page/Post</a></li>
+      <li><a href="#remove-box-shadow-from-featured-image" id="markdown-toc-remove-box-shadow-from-featured-image">Remove Box Shadow from Featured Image</a></li>
+      <li><a href="#featured-images-that-do-not-have-an-aspect-ratio-of-169" id="markdown-toc-featured-images-that-do-not-have-an-aspect-ratio-of-169">Featured Images That Do Not Have an Aspect Ratio of 16:9</a></li>
+      <li><a href="#show-thumbnail-image-in-sidebar-widgets" id="markdown-toc-show-thumbnail-image-in-sidebar-widgets">Show Thumbnail Image in Sidebar Widgets</a></li>
+    </ul>
+  </li>
+  <li><a href="#pin-featured-posts" id="markdown-toc-pin-featured-posts">Pin Featured Posts</a></li>
+  <li><a href="#add-custom-css-to-html-head-section" id="markdown-toc-add-custom-css-to-html-head-section">Add Custom CSS to HTML &lt;head&gt; Section</a></li>
+  <li><a href="#add-custom-codes-to-html-head-section" id="markdown-toc-add-custom-codes-to-html-head-section">Add Custom Codes to HTML &lt;head&gt; Section</a></li>
+  <li><a href="#sidebar-options" id="markdown-toc-sidebar-options">Sidebar Options</a>    <ul>
+      <li><a href="#override-default-sidebar-setting-v20" id="markdown-toc-override-default-sidebar-setting-v20">Override Default Sidebar Setting <span class="badge badge-default">v2.0</span></a></li>
+      <li><a href="#options-for-resources-widget" id="markdown-toc-options-for-resources-widget">Options for Resources Widget</a>        <ul>
+          <li><a href="#display-github-metadata-for-project-repo" id="markdown-toc-display-github-metadata-for-project-repo">Display GitHub Metadata for Project Repo</a>            <ul>
+              <li><a href="#v12-deprecated" id="markdown-toc-v12-deprecated"><span class="badge badge-default">v1.2</span> <sup>(Deprecated)</sup></a></li>
+              <li><a href="#v20" id="markdown-toc-v20"><span class="badge badge-success">v2.0</span></a></li>
+            </ul>
+          </li>
+          <li><a href="#display-download-buttons" id="markdown-toc-display-download-buttons">Display Download Buttons</a>            <ul>
+              <li><a href="#v12-deprecated-1" id="markdown-toc-v12-deprecated-1"><span class="badge badge-default">v1.2</span> <sup>(Deprecated)</sup></a></li>
+              <li><a href="#v20-1" id="markdown-toc-v20-1"><span class="badge badge-success">v2.0</span></a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#on-page-seo" id="markdown-toc-on-page-seo">On-Page SEO</a></li>
+  <li><a href="#set-url-redirects" id="markdown-toc-set-url-redirects">Set URL Redirects</a></li>
+  <li><a href="#exclude-from-sitemap" id="markdown-toc-exclude-from-sitemap">Exclude from Sitemap</a></li>
+  <li><a href="#see-also-" id="markdown-toc-see-also-">See Also 📚</a></li>
+</ul>
+
+<aside id="toc-skipped"></aside>
+
+<hr />
+
+<h2 id="general-front-matters-for-a-post">General Front Matters for A Post</h2>
+
+<p>A Jekyll post should contain the front matters as the following example:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">post</span>
+<span class="na">permalink</span><span class="pi">:</span> <span class="s">/blog/my-first-post/</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">My first blog post</span>
+<span class="na">date</span><span class="pi">:</span> <span class="s">2020-01-31 07:30 +0000</span>
+<span class="na">last_modified_at</span><span class="pi">:</span> <span class="s">2021-07-31 +0000</span>
+<span class="na">category</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">category1</span><span class="pi">,</span> <span class="nv">category2</span><span class="pi">]</span>
+<span class="na">tags</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">tag1</span><span class="pi">,</span> <span class="nv">tag2</span><span class="pi">,</span> <span class="nv">tag3</span><span class="pi">]</span>
+<span class="na">excerpt</span><span class="pi">:</span> <span class="s">This is the first blog post for my Jekyll site.</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th>Attribute</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">layout</code></td>
+      <td>The Jekyll layout file to use.<br /><em>Options:</em> <code class="language-plaintext plaintext highlighter-rouge">page</code>, <code class="language-plaintext plaintext highlighter-rouge">post</code>, <code class="language-plaintext plaintext highlighter-rouge">archive</code>, <code class="language-plaintext plaintext highlighter-rouge">category-list</code> and <code class="language-plaintext plaintext highlighter-rouge">tag-list</code>.<br /><strong>Note</strong>: <code class="language-plaintext plaintext highlighter-rouge">page-right-sidebar</code> and <code class="language-plaintext plaintext highlighter-rouge">post-left-sidebar</code> are deprecated.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">title</code></td>
+      <td>The title of the page or post.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">date</code></td>
+      <td>The date here overrides the date from the name of the post file.<br /><strong>Note</strong>: A date is specified in the format <code class="language-plaintext plaintext highlighter-rouge">YYYY-MM-DD HH:MM:SS +/-TTTT</code>; hours, minutes, seconds, and timezone offset are optional.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">last_modified_at</code></td>
+      <td>(<em>Optional</em>) The date when the post was the last modified.<br /><strong>Note</strong>: A date is specified in the format <code class="language-plaintext plaintext highlighter-rouge">YYYY-MM-DD HH:MM:SS +/-TTTT</code>; hours, minutes, seconds, and timezone offset are optional.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">permalink</code></td>
+      <td>(<em>Optional</em>) The custom URL for the page or post, if you need your processed blog post URLs to be something other than the site-wide style. <em>Default:</em> <code class="language-plaintext plaintext highlighter-rouge">/year/month/day/title.html</code>.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">category</code></td>
+      <td>(<em>Optional</em>) One or multiple categories that the post belongs to.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">tags</code></td>
+      <td>(<em>Optional</em>) One or multiple tags that the post associates with.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">excerpt</code></td>
+      <td>(<em>Optional</em>) The short text to show on the card of the list/grid of posts, and use as the meta description of the page or post.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>💡 See:</strong> <a href="https://jekyllrb.com/docs/front-matter/" title="Official Jekyll Documentation">Front Matter | Jekyllrb</a></p>
+
+<hr />
+
+<h2 id="set-featured-image">Set Featured Image</h2>
+
+<p>You can assign an image (with <strong>730×431</strong> pixels in size) as the featured image of a post in the front matter like this:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">image</span><span class="pi">:</span>
+  <span class="na">path</span><span class="pi">:</span> <span class="s">/assets/images/picture.png</span>
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th>Property</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">path</code></td>
+      <td>(<em>Required</em>) Absolute or relative path of a JPG, PNG, or SVG file.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">hide</code></td>
+      <td>(<em>Optional</em>) Set to <code class="language-plaintext plaintext highlighter-rouge">true</code> to not embed the image on the page.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">class</code></td>
+      <td>(<em>Optional</em>) Additional class names for the &lt;amp-img&gt; component, e.g. <code class="language-plaintext plaintext highlighter-rouge">shadow-none</code> to remove the box shallow.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">width</code></td>
+      <td>(<em>Optional</em>) Specify the image width (in px). <em>Default:</em> 730 (px).</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">height</code></td>
+      <td>(<em>Optional</em>) Specify the image height (in px). <em>Default:</em> 411 (px).</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">fit</code></td>
+      <td>(<em>Optional</em>) The horizontal alignment of the thumbnail in cards and post grid. <em>Options:</em> <code class="language-plaintext plaintext highlighter-rouge">left</code> / <code class="language-plaintext plaintext highlighter-rouge">right</code>.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Note</strong>: The front matter <code class="language-plaintext highlighter-rouge">image</code> also inherits the properties from <a href="https://github.com/jekyll/jekyll-feed#optional-front-matter">Jekyll Feed</a> and <a href="https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md#customizing-image-output">Jekyll SEO Tag</a>.</p>
+
+<h3 id="hide-featured-image-on-a-pagepost">Hide Featured Image on a Page/Post</h3>
+
+<p>If you do not want to render the featured image on a post, append a <code class="language-plaintext highlighter-rouge">hide</code> option to the <code class="language-plaintext highlighter-rouge">image</code> variable, <em>e.g.</em>:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">image</span><span class="pi">:</span>
+   <span class="na">path</span><span class="pi">:</span> <span class="s">/assets/images/cover-image.png</span>
+   <span class="na">hide</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div></div>
+
+<h3 id="remove-box-shadow-from-featured-image">Remove Box Shadow from Featured Image</h3>
+
+<p>If you want to remove the shadow of the featured image on the post page, append the following class to the <code class="language-plaintext highlighter-rouge">image</code> variable, <em>e.g.</em></p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">image</span><span class="pi">:</span>
+   <span class="na">path</span><span class="pi">:</span> <span class="s">/assets/images/cover-image.png</span>
+   <span class="na">class</span><span class="pi">:</span> <span class="s">shadow-none</span>
+</code></pre></div></div>
+
+<h3 id="featured-images-that-do-not-have-an-aspect-ratio-of-169">Featured Images That Do Not Have an Aspect Ratio of 16:9</h3>
+
+<p>If the image is not at 16:9 aspect ratio, you need to define its width and height under the <code class="language-plaintext highlighter-rouge">image</code> variable, <em>e.g.</em>:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">image</span><span class="pi">:</span>
+   <span class="na">path</span><span class="pi">:</span> <span class="s">/assets/images/cover-image.png</span>
+   <span class="na">width</span><span class="pi">:</span> <span class="m">640</span>
+   <span class="na">height</span><span class="pi">:</span> <span class="m">480</span>
+</code></pre></div></div>
+
+<h3 id="show-thumbnail-image-in-sidebar-widgets">Show Thumbnail Image in Sidebar Widgets</h3>
+
+<ol>
+  <li>Make a copy of each featured image file in the same folder.</li>
+  <li>Rename the copies to have a filename like <code class="language-plaintext highlighter-rouge">&lt;filename&gt;.thumb.&lt;ext&gt;</code>, <em>e.g.</em> <code class="language-plaintext highlighter-rouge">cover-image.thumb.png</code>.</li>
+  <li>Rescale it to a height of <strong>150px</strong>.</li>
+</ol>
+
+<p>By default, the thumbnail of featured images is cropped at the center inside the cards of the list/grid of Featured Posts. A new variable for the thumbnail positioning was added to the theme on 2020-10-07. You can now change the image position to the <em>left</em> or <em>right</em> by appending a <code class="language-plaintext highlighter-rouge">fit</code> option to the <code class="language-plaintext highlighter-rouge">image</code> variable, <em>e.g.</em>:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">image</span><span class="pi">:</span>
+   <span class="na">path</span><span class="pi">:</span> <span class="s">/assets/images/cover-image.png</span>
+   <span class="na">fit</span><span class="pi">:</span> <span class="s">left</span>
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="pin-featured-posts">Pin Featured Posts</h2>
+
+<p>You can pin a post to the list/grid of Featured Posts in the theme by the following front matter:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">featured</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="add-custom-css-to-html-head-section">Add Custom CSS to HTML &lt;head&gt; Section</h2>
+
+<p>In the front matter, you can add your custom CSS styles to the end of the <code class="language-plaintext highlighter-rouge">&lt;style amp-custom&gt;</code> tag inside the HTML header.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">css</span><span class="pi">:</span>
+  <span class="na">badge</span><span class="pi">:</span> <span class="no">true</span>  <span class="c1"># include Bootstrap 4 Badges styles</span>
+  <span class="na">syntax</span><span class="pi">:</span> <span class="no">true</span> <span class="c1"># include CSS styles for syntax highlighter</span>
+  <span class="na">custom</span><span class="pi">:</span> <span class="pi">&gt;-</span>
+    <span class="s"># Write custom CSS to here</span>
+</code></pre></div></div>
+
+<p>For example, you can format the table elements with a zebra-striped design by the following:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">css</span><span class="pi">:</span>
+  <span class="na">custom</span><span class="pi">:</span> <span class="pi">&gt;-</span>
+    <span class="s">table { font-size: .95rem; margin-bottom: 1.5rem; }</span>
+    <span class="s">tr:nth-child(odd) { backgroud-color: #e3edf3; }</span>
+    <span class="s">th, td { padding: .5em; }</span>
+</code></pre></div></div>
+
+<p style="margin-bottom: auto;"><strong>💡 Learn more:</strong></p>
+
+<ul>
+  <li><a href="https://getbootstrap.com/docs/4.0/components/badge/" title="Bootstrap 4">Badges</a></li>
+  <li><a href="/amp-affiliately-jekyll-theme/code/" title="AMP Affiliately Jekyll Theme">Code Block</a></li>
+  <li><a href="https://www.w3schools.com/howto/howto_css_table_zebra.asp" title="W3Schools">How To Create A Zebra Striped Table</a></li>
+</ul>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">amp</span><span class="pi">:</span>
+  <span class="na">addthis</span><span class="pi">:</span> <span class="no">true</span>  <span class="c1"># layout level</span>
+  <span class="na">iframe</span><span class="pi">:</span> <span class="no">true</span>   <span class="c1"># layout level</span>
+  <span class="na">script</span><span class="pi">:</span> <span class="no">true</span>   <span class="c1"># layout level</span>
+  <span class="na">gist</span><span class="pi">:</span> <span class="no">true</span>     <span class="c1"># page level</span>
+  <span class="na">youtube</span><span class="pi">:</span> <span class="no">true</span>  <span class="c1"># page level</span>
+</code></pre></div></div>
+
+<p><strong>💡 Related:</strong> <a href="/amp-affiliately-jekyll-theme/media/#video" title="AMP Affiliately Jekyll Theme">How to include YouTube Video and Playlist embeds</a></p>
+
+<hr />
+
+<h2 id="add-custom-codes-to-html-head-section">Add Custom Codes to HTML &lt;head&gt; Section</h2>
+
+<p>In the front matter, you can add your codes to the HTML header using the variable <code class="language-plaintext highlighter-rouge">custom_header</code>.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">custom_head</span><span class="pi">:</span> <span class="pi">&gt;-</span>
+  <span class="s"># Custom meta tags and AMP script components in page level</span>
+</code></pre></div></div>
+
+<p>For example, you can specify additional meta tags and AMP components as the followings:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">custom_head</span><span class="pi">:</span> <span class="pi">&gt;-</span>
+  <span class="s">&lt;!-- Instructs web crawlers to not index the page and to not crawl any of the links on the page --&gt;</span>
+  <span class="s">&lt;meta name="robots" content="noindex, nofollow"&gt;</span>
+
+  <span class="s">&lt;!-- Includes the AMP JS library for &lt;amp-accordion&gt; component --&gt;</span>
+  <span class="s">&lt;script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"&gt;&lt;/script&gt;</span>
+
+  <span class="s">&lt;!-- Includes the AMP JS library for &lt;amp-audio&gt; component --&gt;</span>
+  <span class="s">&lt;script async custom-element="amp-audio" src="https://cdn.ampproject.org/v0/amp-audio-0.1.js"&gt;&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<p><strong>💡 Learn more</strong>: <a href="https://developers.google.com/search/docs/advanced/robots/robots_meta_tag" title="Google Search Central">Robots meta tag, data-nosnippet, and X-Robots-Tag specifications</a></p>
+
+<hr />
+
+<h2 id="sidebar-options">Sidebar Options</h2>
+
+<h3 id="override-default-sidebar-setting-v20">Override Default Sidebar Setting <span class="badge badge-default">v2.0</span></h3>
+
+<p><strong>Options:</strong> <code class="language-plaintext highlighter-rouge">left</code>, <code class="language-plaintext highlighter-rouge">right</code>, and <code class="language-plaintext highlighter-rouge">none</code></p>
+
+<p>For example, you can set a left sidebar on a post page by the following:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">sidebar</span><span class="pi">:</span> <span class="s">left</span>
+</code></pre></div></div>
+
+<h3 id="options-for-resources-widget">Options for Resources Widget</h3>
+
+<h4 id="display-github-metadata-for-project-repo">Display GitHub Metadata for Project Repo</h4>
+
+<p>When you use this theme for the website of a Github project repository, it is available to show buttons that link to the repository and a release file in the sidebar.</p>
+
+<p>Follow our <a href="/amp-affiliately-jekyll-theme/config-guide/">Config Guide</a> to set up your <code class="language-plaintext highlighter-rouge">_config.yml</code> file.</p>
+
+<p>If a release exists in the repository, an additional button that links to the webpage of the latest release will be shown in the widget.</p>
+
+<p><strong>Note</strong>: Authentication is required to get your repository data to show the release button. Please follow the docs of <a href="https://github.com/jekyll/github-metadata/blob/master/docs/authentication.md">jekyll
+/github-metadata</a> to set up your personal access token.</p>
+
+<h5 id="v12-deprecated"><span class="badge badge-default">v1.2</span> <sup>(Deprecated)</sup></h5>
+
+<p>Add the following front matter to every page that you want to show the <strong>Resources</strong> Widget.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">download</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div></div>
+
+<p>You can replace the second button and point it to a downloadable file by configuring it like this:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">download</span><span class="pi">:</span>
+  <span class="na">url</span><span class="pi">:</span> <span class="s">//.../filename.zip</span>
+</code></pre></div></div>
+
+<h5 id="v20"><span class="badge badge-success">v2.0</span></h5>
+
+<p>You can globally configure the widget by using the attribute <code class="language-plaintext highlighter-rouge">resources_widget</code> in the <code class="language-plaintext highlighter-rouge">_config.yml</code> file. It is not necessary to add <code class="language-plaintext highlighter-rouge">download: true</code> to the front matter of individual pages for enabling the widget.</p>
+
+<p>Any file download buttons will display separately, and the button that links to the webpage of the latest release will no longer be overridden.</p>
+
+<h4 id="display-download-buttons">Display Download Buttons</h4>
+
+<h5 id="v12-deprecated-1"><span class="badge badge-default">v1.2</span> <sup>(Deprecated)</sup></h5>
+
+<p>A Download button shows on a page when you declare the URL of a download file in the front matter like this:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">download</span><span class="pi">:</span>
+  <span class="na">url</span><span class="pi">:</span> <span class="s">//.../filename.zip</span>
+</code></pre></div></div>
+
+<p>This button will substitute the button for linking to the latest release if GitHub metadata is also presented in the widget.</p>
+
+<h5 id="v20-1"><span class="badge badge-success">v2.0</span></h5>
+
+<p>The new version has been redesigned to support creating a list of buttons for multiple files on-page. You need to itemize the <code class="language-plaintext highlighter-rouge">name</code> and <code class="language-plaintext highlighter-rouge">url</code> of each file in the front matter, for example:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">download</span><span class="pi">:</span>
+  <span class="na">files</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">url</span><span class="pi">:</span> <span class="s">../training-01/labsheet.pdf</span>
+      <span class="na">name</span><span class="pi">:</span> <span class="s">Lab Sheet</span>
+    <span class="pi">-</span> <span class="na">url</span><span class="pi">:</span> <span class="s">../training-01/lab-files.zip</span>
+      <span class="na">name</span><span class="pi">:</span> <span class="s">Lab Files</span>
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="on-page-seo">On-Page SEO</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Attribute</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">canonical_url</code></td>
+      <td>(<em>Optional</em>) The custom <a href="https://developers.google.com/search/docs/advanced/crawling/consolidate-duplicate-urls" title="Google Developers">Canonical URL</a> for the page or post.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">author</code></td>
+      <td>(<em>Optional</em>) The lookup key for author information to be propagated to JSON-LD structured data. See <a href="https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md">Jekyll SEO Tag</a>.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">description</code></td>
+      <td>(<em>Optional</em>) A brief summary of a web page to be shown in search engine results.<br /><strong>Note</strong>: This will takes priority over existing front matter attribute <code class="language-plaintext highlighter-rouge">excerpt</code>.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">locale</code></td>
+      <td>(<em>Optional</em>) The custom locale to override the site-level locale information for the page or post.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">image</code></td>
+      <td>(<em>Optional</em>) <strong>Note</strong>: This is inherited by the attribute for setting the <a href="#set-featured-image">featured image</a> for the page or post.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>💡 Learn more from the <a href="https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md">basic usage</a> and <a href="https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md">advanced usage</a> in the Jekyll SEO Tag documentation.</p>
+
+<hr />
+
+<h2 id="set-url-redirects">Set URL Redirects</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Attribute</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">redirect_from</code></td>
+      <td>(<em>Optional</em>) One or multiple relative URLs that will redirect to the page or post, <em>e.g.</em> <code class="language-plaintext plaintext highlighter-rouge">/post/2019/10/31/index.html</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">redirect_to</code></td>
+      <td>(<em>Optional</em>) The destination URL of the redirection, <em>e.g.</em> <code class="language-plaintext plaintext highlighter-rouge">http://www.github.com</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>💡 Learn more about the usage from the <a href="https://github.com/jekyll/jekyll-redirect-from">Jekyll Redirect From</a> documentation.</p>
+
+<h2 id="exclude-from-sitemap">Exclude from Sitemap</h2>
+
+<blockquote>
+  <p>If you would like to exclude specific pages/posts from the sitemap set the sitemap flag to false in the front matter for the page/post.</p>
+
+  <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="na">sitemap</span><span class="pi">:</span> <span class="no">false</span>
+</code></pre></div>  </div>
+</blockquote>
+
+<p>💡 Learn more from the <a href="https://github.com/jekyll/jekyll-sitemap#exclusions">Jekyll Sitemap Generator Plugin</a> documentation.</p>
+
+<hr />
+
+<h2 id="see-also-">See Also 📚</h2>
+
+<ul>
+  <li><a href="https://jekyllrb.com/docs/configuration/front-matter-defaults/" title="Official Jekyll Documentation">Front Matter Defaults | Jekyllrb</a></li>
+  <li><a href="https://github.com/chriskyfung/amp-affiliately-jekyll-theme/blob/master/README.md" title="GitHub">README.md - amp-affiliately-jekyll-theme</a></li>
+</ul>]]></content><author><name></name></author><category term="[&quot;doc&quot;]" /><category term="front matter" /><category term="styles" /><category term="AMP" /><summary type="html"><![CDATA[The docs for the front matters that that let you control the post title, date, featured image, CSS styles, etc.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/frontend-4342425_730.png" /><media:content medium="image" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/frontend-4342425_730.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Responsive Web Design</title><link href="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/responsive-web-design/" rel="alternate" type="text/html" title="Responsive Web Design" /><published>2021-07-20T10:47:00+08:00</published><updated>2021-07-20T10:47:00+08:00</updated><id>https://chriskyfung.github.io/amp-affiliately-jekyll-theme/device-look</id><content type="html" xml:base="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/responsive-web-design/"><![CDATA[<p>Preview the look of the responsive design for different devices (smartphone <i class="fas fa-mobile-alt"></i> , tablet <i class="fas fa-tablet-alt"></i> and laptop <i class="fas fa-laptop"></i>) – <em><strong>Remark</strong>: This page does not support for Internet Explorer (IE)</em></p>
+
+<div style="display:flex;flex-wrap:wrap;">
+
+  <div class="device-wrapper">
+    <div class="smartphone">
+      <div class="content">
+        <amp-iframe width="360" height="640" layout="responsive" sandbox="allow-scripts" frameborder="0" src="/amp-affiliately-jekyll-theme/scroll/">
+        </amp-iframe>
+      </div>
+    </div>
+    <h3 class="text-center">Phone</h3>
+  </div>
+
+  <div class="device-wrapper">
+    <div class="tablet">
+      <div class="content">
+        <amp-iframe width="768" height="1024" layout="responsive" sandbox="allow-scripts" frameborder="0" src="/amp-affiliately-jekyll-theme/scroll/">
+        </amp-iframe>
+      </div>
+    </div>
+    <h3 class="text-center">Tablet</h3>
+  </div>
+
+  <div class="device-wrapper">
+    <div class="laptop">
+      <div class="content">
+        <amp-iframe width="1366" height="800" layout="responsive" sandbox="allow-scripts" frameborder="0" src="/amp-affiliately-jekyll-theme/scroll/">
+        </amp-iframe>
+      </div>
+    </div>
+    <h3 class="text-center">Laptop</h3>
+  </div>
+
+</div>]]></content><author><name></name></author><category term="[&quot;feature&quot;]" /><category term="demo" /><summary type="html"><![CDATA[Preview the look for different devices (smartphone 📱, tablet 💻 and laptop 🖥️)]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/responsive-1622825_730.png" /><media:content medium="image" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/responsive-1622825_730.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ads Settings</title><link href="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/ads-settings/" rel="alternate" type="text/html" title="Ads Settings" /><published>2021-04-02T11:00:00+08:00</published><updated>2021-04-02T11:00:00+08:00</updated><id>https://chriskyfung.github.io/amp-affiliately-jekyll-theme/ads-settings</id><content type="html" xml:base="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/ads-settings/"><![CDATA[<aside style="position: relative;">
+    <a href="#toc-skipped" class="screen-reader-only">Skip table of contents</a>
+</aside>
+
+<h2 class="no_toc" id="table-of-contents">Table of Contents</h2>
+
+<ul id="markdown-toc">
+  <li><a href="#disable-auto-ads" id="markdown-toc-disable-auto-ads">Disable Auto Ads</a></li>
+  <li><a href="#manually-insert-ad-units" id="markdown-toc-manually-insert-ad-units">Manually Insert Ad Units</a>    <ul>
+      <li><a href="#recommended-ad-sizes" id="markdown-toc-recommended-ad-sizes">Recommended Ad sizes</a></li>
+    </ul>
+  </li>
+  <li><a href="#ad-background" id="markdown-toc-ad-background">Ad Background</a></li>
+</ul>
+
+<aside id="toc-skipped"></aside>
+
+<p>This theme supports Ad display with Google Adsense using <code class="language-plaintext highlighter-rouge">&lt;amp-ad&gt;</code> and <code class="language-plaintext highlighter-rouge">&lt;amp-auto-ads&gt;</code> components.</p>
+
+<p>You have to set up your <em>Adsense client ID</em> in <code class="language-plaintext highlighter-rouge">_config.yml</code> as below.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Google Ads</span>
+<span class="na">adsense</span><span class="pi">:</span>
+  <span class="na">client_id</span><span class="pi">:</span> <span class="s1">'</span><span class="s">ca-pub-xxxxxxxxxxxxxxxx'</span> <span class="c1"># Google Adsense client ID</span>
+</code></pre></div></div>
+
+<p>The theme will include the following two AMP components to the HTML head:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">async</span> <span class="na">custom-element=</span><span class="s">"amp-auto-ads"</span> 
+  <span class="na">src=</span><span class="s">"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;script </span><span class="na">async</span> <span class="na">custom-element=</span><span class="s">"amp-ad"</span> 
+  <span class="na">src=</span><span class="s">"https://cdn.ampproject.org/v0/amp-ad-0.1.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<h2 id="disable-auto-ads">Disable Auto Ads</h2>
+
+<p>You can disable and exclude the <strong>Auto Ads</strong> component by configuring <code class="language-plaintext highlighter-rouge">auto_ads: false</code> as below.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Google Ads</span>
+<span class="na">adsense</span><span class="pi">:</span>
+  <span class="na">client_id</span><span class="pi">:</span> <span class="s1">'</span><span class="s">ca-pub-xxxxxxxxxxxxxxxx'</span> <span class="c1"># Google Adsense client ID</span>
+  <span class="na">auto_ads</span><span class="pi">:</span> <span class="no">false</span>
+</code></pre></div></div>
+
+<h2 id="manually-insert-ad-units">Manually Insert Ad Units</h2>
+
+<p>This theme comes with two pre-defined Ad placements:</p>
+
+<ol>
+  <li>the space before the content per post</li>
+  <li>the sidebar ads section (if the sidebar presents)</li>
+</ol>
+
+<p>You have to assign your Ad unit IDs as the configuration below:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Google Ads</span>
+<span class="na">adsense</span><span class="pi">:</span>
+  <span class="na">client_id</span><span class="pi">:</span> <span class="s1">'</span><span class="s">ca-pub-xxxxxxxxxxxxxxxx'</span> <span class="c1"># Google Adsense client ID</span>
+  <span class="na">ad_slot</span><span class="pi">:</span>
+    <span class="na">before_content</span><span class="pi">:</span> <span class="s">xxxxxxxxxx</span> <span class="c1"># Ad Slot that places before content</span>
+    <span class="na">sidebar</span><span class="pi">:</span> <span class="s">xxxxxxxxxx</span> <span class="c1"># Ad Slot that places to sidebar</span>
+</code></pre></div></div>
+
+<h3 id="recommended-ad-sizes">Recommended Ad sizes</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Placement</th>
+      <th>Width</th>
+      <th>Height</th>
+      <th>media &gt;= 1200px</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>before content</td>
+      <td>100%</td>
+      <td>200px</td>
+      <td>width: 730px</td>
+    </tr>
+    <tr>
+      <td>sidebar</td>
+      <td>100%</td>
+      <td>250px</td>
+      <td>width: 300px</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="ad-background">Ad Background</h2>
+
+<p>In general, Adsense Term of Service (TOS) disallows publishers to modify Ads appearance with CSS.
+But it leaves blank spaces on the webpage sometimes, when it cannot suggest any Ads that match with the page content.
+This is highly undesirable because it will give a very bad user experience.</p>
+
+<p>To make it a little nicer, a small icon is set as the background image of each <code class="language-plaintext highlighter-rouge">&lt;amp-ad&gt;</code> element as shown below.</p>
+
+<figure><amp-img width="751" height="285" layout="intrinsic" src="/amp-affiliately-jekyll-theme/assets/images/ad-placement-background-image.webp" alt="Icon displays at the Ad placement" on="tap:lightbox1" role="button" tabindex="0" aria-label="lightbox">
+        <amp-img fallback="" width="751" height="285" layout="intrinsic" src="/amp-affiliately-jekyll-theme/assets/images/ad-placement-background-image.png" alt="Icon displays at the Ad placement" on="tap:lightbox1" role="button" tabindex="0" aria-label="lightbox"></amp-img>
+      </amp-img></figure>
+
+<p>It is styled with the following CSS code:</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">amp-ad</span> <span class="p">{</span>
+  <span class="nl">background-image</span><span class="p">:</span> <span class="sx">url('https://icon-library.com/images/b8d82a619c.png')</span><span class="p">;</span>
+  <span class="nl">background-position</span><span class="p">:</span> <span class="m">50%</span><span class="p">;</span>
+  <span class="nl">background-repeat</span><span class="p">:</span> <span class="nb">no-repeat</span><span class="p">;</span>
+  <span class="nl">background-size</span><span class="p">:</span> <span class="m">50px</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>When an Ad unit is successfully loaded and rendered, the entire icon will be covered and will not affect the Ad appearance.</p>
+
+<p>If you still worry about violating the Adsense Policy, you can exclude the CSS styles by setting the following in the <code class="language-plaintext highlighter-rouge">_config.yml</code> file.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">adstyle</span><span class="pi">:</span> <span class="no">false</span>
+</code></pre></div></div>
+
+<p><br /></p>]]></content><author><name>Chris KY Fung</name></author><category term="[&quot;feature&quot;, &quot;doc&quot;]" /><category term="Adsense" /><category term="_config" /><category term="styles" /><category term="AMP" /><summary type="html"><![CDATA[Ads Styles and Configuration]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/web-5771064_730.jpg" /><media:content medium="image" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/web-5771064_730.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Code Block</title><link href="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/code/" rel="alternate" type="text/html" title="Code Block" /><published>2021-03-21T08:00:00+08:00</published><updated>2021-08-02T11:14:00+08:00</updated><id>https://chriskyfung.github.io/amp-affiliately-jekyll-theme/code</id><content type="html" xml:base="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/code/"><![CDATA[<aside style="position: relative;">
+    <a href="#toc-skipped" class="screen-reader-only">Skip table of contents</a>
+</aside>
+
+<h2 class="no_toc" id="table-of-contents">Table of Contents</h2>
+
+<ul id="markdown-toc">
+  <li><a href="#markdown-syntax" id="markdown-toc-markdown-syntax">Markdown Syntax</a>    <ul>
+      <li><a href="#code-spans" id="markdown-toc-code-spans">Code spans</a></li>
+      <li><a href="#fenced-code-blocks" id="markdown-toc-fenced-code-blocks">Fenced code blocks</a></li>
+      <li><a href="#use-highlight-tag" id="markdown-toc-use-highlight-tag">Use <strong>highlight</strong> tag</a></li>
+      <li><a href="#include-line-numbers" id="markdown-toc-include-line-numbers">Include line numbers</a></li>
+    </ul>
+  </li>
+  <li><a href="#more-samples" id="markdown-toc-more-samples">More Samples</a>    <ul>
+      <li><a href="#html-code-sample" id="markdown-toc-html-code-sample">HTML Code Sample</a></li>
+      <li><a href="#css-code-sample" id="markdown-toc-css-code-sample">CSS Code Sample</a></li>
+      <li><a href="#javascript-code-sample" id="markdown-toc-javascript-code-sample">JavaScript Code Sample</a></li>
+    </ul>
+  </li>
+</ul>
+
+<aside id="toc-skipped"></aside>
+
+<p>This theme supports <a href="https://jekyllrb.com/docs/liquid/tags/#code-snippet-highlighting">syntax highlighting</a> based on <a href="http://rouge.jneen.net/">Rouge</a>, which is the default highlighter in Jekyll 3 and above. All CSS styles for syntax highlighting stores in the <code class="language-plaintext highlighter-rouge">amp-syntax-highlight.css</code> under the <code class="language-plaintext highlighter-rouge">_includes/css/</code> directory.</p>
+
+<p>By default, this theme excludes the CSS styles for syntax highlighting. The AMP framework limits the total CSS styles up to 75,000 bytes per AMP page. This keeps light-weight and rendering fast.</p>
+
+<p>To include the stylesheet on-demand, you need to add the following to your post’s front matter:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">css</span><span class="pi">:</span>
+  <span class="na">syntax</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div></div>
+
+<h2 id="markdown-syntax">Markdown Syntax</h2>
+
+<p>Code can be presented in the following ways:</p>
+
+<h3 id="code-spans"><a href="https://www.markdownguide.org/basic-syntax/#code">Code spans</a></h3>
+
+<p>To denote a word or phrase as code, enclose it in backticks (`). For example:</p>
+
+<pre>The HTML `&lt;body&gt;` Element represents the content of an HTML document.</pre>
+
+<p><strong>Output:</strong></p>
+
+<p style="border:1px solid #ddd; padding: 0.5em">The HTML <code class="language-plaintext highlighter-rouge">&lt;body&gt;</code> Element represents the content of an HTML document.</p>
+
+<h3 id="fenced-code-blocks"><a href="https://www.markdownguide.org/extended-syntax/#fenced-code-blocks">Fenced code blocks</a></h3>
+
+<p>Use three backticks (```) or three tildes (~~~) on the lines before and after the code block with providing an easier way to specify the language, namely by appending the language of the code block to the end of the starting line. For example:</p>
+
+<pre>
+```ruby
+def what?
+  42
+end
+```
+</pre>
+
+<p><strong>Output:</strong></p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">what?</span>
+  <span class="mi">42</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<h3 id="use-highlight-tag"><a href="https://jekyllrb.com/docs/liquid/tags/#code-snippet-highlighting">Use <strong>highlight</strong> tag</a></h3>
+
+<p>For example:</p>
+
+<pre>
+{% highlight ruby %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
+</pre>
+
+<p><strong>Output:</strong></p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">foo</span>
+  <span class="nb">puts</span> <span class="s1">'foo'</span>
+<span class="k">end</span></code></pre></figure>
+
+<h3 id="include-line-numbers"><a href="https://jekyllrb.com/docs/liquid/tags/#line-numbers">Include line numbers</a></h3>
+
+<p>Including the <code class="language-plaintext highlighter-rouge">linenos</code> argument will force the highlighted code to include line numbers.</p>
+
+<pre>
+{% highlight ruby linenos %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
+</pre>
+
+<p><strong>Output:</strong></p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="code"><pre><span class="k">def</span> <span class="nf">foo</span>
+  <span class="nb">puts</span> <span class="s1">'foo'</span>
+<span class="k">end</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>More information about code highlighting in jekyll can be found in <a href="https://jekyllrb.com/docs/liquid/tags/#code-snippet-highlighting">Jekyll</a> and <a href="https://kramdown.gettalong.org/syntax.html#code-spans">kramdown</a> documentation.</p>
+
+<h2 id="more-samples">More Samples</h2>
+
+<p>There are a couple of examples showing the resulting highlighted code:</p>
+
+<h3 id="html-code-sample">HTML Code Sample</h3>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+
+<span class="nt">&lt;h1&gt;</span>My First Heading<span class="nt">&lt;/h1&gt;</span>
+<span class="nt">&lt;p&gt;</span>My first paragraph.<span class="nt">&lt;/p&gt;</span>
+
+<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h3 id="css-code-sample">CSS Code Sample</h3>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">#container</span> <span class="p">{</span>
+    <span class="nl">float</span><span class="p">:</span> <span class="nb">left</span><span class="p">;</span>
+    <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="m">-240px</span> <span class="m">0</span> <span class="m">0</span><span class="p">;</span>
+    <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="javascript-code-sample">JavaScript Code Sample</h3>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$</span><span class="p">.</span><span class="nx">ajax</span><span class="p">({</span>
+  <span class="na">type</span><span class="p">:</span> <span class="dl">'</span><span class="s1">POST</span><span class="dl">'</span><span class="p">,</span>
+  <span class="na">url</span><span class="p">:</span> <span class="dl">'</span><span class="s1">backend.php</span><span class="dl">'</span><span class="p">,</span>
+  <span class="na">data</span><span class="p">:</span> <span class="dl">"</span><span class="s2">q=</span><span class="dl">"</span><span class="o">+</span><span class="nx">myform</span><span class="p">.</span><span class="nx">serialize</span><span class="p">(),</span>
+  <span class="na">success</span><span class="p">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">data</span><span class="p">){</span>
+    <span class="c1">// on success use return data here</span>
+  <span class="p">},</span>
+  <span class="na">error</span><span class="p">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">xhr</span><span class="p">,</span> <span class="nx">type</span><span class="p">,</span> <span class="nx">exception</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// if ajax fails display error alert</span>
+    <span class="nx">alert</span><span class="p">(</span><span class="dl">"</span><span class="s2">ajax error response type </span><span class="dl">"</span><span class="o">+</span><span class="nx">type</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">});</span>
+</code></pre></div></div>]]></content><author><name>Chris</name></author><category term="[&quot;doc&quot;, &quot;feature&quot;]" /><category term="code" /><category term="markdown" /><category term="demo" /><summary type="html"><![CDATA[The demos and docs for Code Snippets with Syntex Highlighting.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/ubuntu-3145957_640.png" /><media:content medium="image" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/ubuntu-3145957_640.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Media</title><link href="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/media/" rel="alternate" type="text/html" title="Media" /><published>2021-02-25T18:42:00+08:00</published><updated>2021-02-25T18:42:00+08:00</updated><id>https://chriskyfung.github.io/amp-affiliately-jekyll-theme/media</id><content type="html" xml:base="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/media/"><![CDATA[<aside style="position: relative;">
+    <a href="#toc-skipped" class="screen-reader-only">Skip table of contents</a>
+</aside>
+
+<h2 class="no_toc" id="table-of-contents">Table of Contents</h2>
+
+<ul id="markdown-toc">
+  <li><a href="#image-markdown" id="markdown-toc-image-markdown">Image (Markdown)</a></li>
+  <li><a href="#image-in-amp" id="markdown-toc-image-in-amp">Image in AMP</a></li>
+  <li><a href="#using-include-picturehtml" id="markdown-toc-using-include-picturehtml">Using <code class="language-plaintext highlighter-rouge">include picture.html</code></a>    <ul>
+      <li><a href="#image-with-caption" id="markdown-toc-image-with-caption">Image with Caption</a></li>
+      <li><a href="#image-with-link" id="markdown-toc-image-with-link">Image with Link</a></li>
+      <li><a href="#image-with-disabling-lightbox" id="markdown-toc-image-with-disabling-lightbox">Image with Disabling Lightbox</a></li>
+      <li><a href="#image-with-classes" id="markdown-toc-image-with-classes">Image with Classes</a></li>
+    </ul>
+  </li>
+  <li><a href="#video" id="markdown-toc-video">Video</a>    <ul>
+      <li><a href="#embedding-a-youtube-video" id="markdown-toc-embedding-a-youtube-video">Embedding a YouTube Video</a></li>
+      <li><a href="#embedding-a-youtube-playlist" id="markdown-toc-embedding-a-youtube-playlist">Embedding a YouTube Playlist</a></li>
+    </ul>
+  </li>
+  <li><a href="#audio" id="markdown-toc-audio">Audio</a></li>
+</ul>
+
+<aside id="toc-skipped"></aside>
+
+<h3 id="image-markdown">Image (Markdown)</h3>
+
+<p>You should <strong style="color:red;">AVOID</strong> using Markdown to add an image. Otherwise, you will get the following AMP validation error:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The tag img' may only appear as a descendant of tag 'noscript'. Did you mean 'amp-img'?
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="image-in-amp">Image in AMP</h3>
+
+<p>For AMP pages, you need to display an image with the <code class="language-plaintext highlighter-rouge">&lt;amp-img&gt;</code> tag.</p>
+
+<p>You can use inline HTML to add an image in Jekyll, like is:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;amp-img</span> <span class="na">src=</span><span class="s">"/YOUR_BASE_URL/PATH/FILENAME.jpg"</span> <span class="err">\</span>
+    <span class="na">width=</span><span class="s">"IMG_WIDTH"</span> <span class="na">height=</span><span class="s">"IMG_HEIGHT"</span> <span class="na">layout=</span><span class="s">"responsive"</span><span class="nt">&gt;&lt;/amp-img&gt;</span>
+</code></pre></div></div>
+
+<p><strong>Sample:</strong></p>
+<amp-img src="/amp-affiliately-jekyll-theme/assets/images/science-in-hd-37-obwmRiAI-unsplash_1024x683.jpg" width="1024" height="683" layout="responsive"></amp-img>
+<p>Advanced bi-additives stabilize the vanadium electrolyte at higher energy content and in a wider temperature range at Pacific Northwest National Laboratories.
+<span>Photo by <a href="https://unsplash.com/@scienceinhd?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Science in HD</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
+
+<p>I know that you absolutely don’t want to type in this way because it is easy to make mistakes.</p>
+
+<p>Therefore, I created the <code class="language-plaintext highlighter-rouge">picture.html</code> as the template for you to include images in AMP valid format properly and quickly.</p>
+
+<h3 id="using-include-picturehtml">Using <code class="language-plaintext highlighter-rouge">include picture.html</code></h3>
+
+<p>The <code class="language-plaintext highlighter-rouge">picture.html</code> is an integrated image container in AMP designed for supporting lightbox and WebP image with fallback. It bundles the <code class="language-plaintext highlighter-rouge">amp-img</code> component with <code class="language-plaintext highlighter-rouge">figure</code>, <code class="language-plaintext highlighter-rouge">figcaption</code>, and <code class="language-plaintext highlighter-rouge">&lt;a&gt;</code> elements to provide rich features. You can configure caption, classes, hyperlink, layout, Alt text, and source directory.</p>
+
+<p>The basic usage:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="p">{</span><span class="sx">% include </span><span class="n">picture</span><span class="p">.</span><span class="nf">html</span> <span class="n">img</span><span class="o">=</span><span class="s2">"&lt;FILENAME&gt;.jpg"</span> <span class="n">width</span><span class="o">=</span><span class="s2">"&lt;IMG_WIDTH&gt;"</span> <span class="n">height</span><span class="o">=</span><span class="s2">"&lt;IMG_HEIGHT&gt;"</span> <span class="o">%</span><span class="p">}</span>
+
+</code></pre></div></div>
+
+<p>Options:</p>
+
+<ul>
+  <li><strong>alt</strong> (<em>if not specific, <code class="language-plaintext highlighter-rouge">Image in &lt;YOUR_POST_TITLE&gt;</code> will be automatically generated as the Alt text for SEO purpose</em>)</li>
+  <li><strong>caption</strong> (<em>support HTML codes</em>)</li>
+  <li><strong>class</strong> (<em>e.g.</em> <code class="language-plaintext highlighter-rouge">text-center</code>)</li>
+  <li><strong>layout</strong> (<em>amp-img supported layouts</em>: <code class="language-plaintext highlighter-rouge">fill</code>, <code class="language-plaintext highlighter-rouge">fixed</code>, <code class="language-plaintext highlighter-rouge">fixed-height</code>, <code class="language-plaintext highlighter-rouge">flex-item</code>, <code class="language-plaintext highlighter-rouge">intrinsic</code>, <code class="language-plaintext highlighter-rouge">nodisplay</code> or <code class="language-plaintext highlighter-rouge">responsive</code>. <em>default</em>: <code class="language-plaintext highlighter-rouge">intrinsic</code>)</li>
+  <li><strong>lightbox</strong> (<em>default</em>: <code class="language-plaintext highlighter-rouge">true</code>)</li>
+  <li><strong>link</strong> (<em>assign a URL for the HTML &lt;a&gt; tag that wraps the &lt;amp-img&gt; tag when the key is present</em>)</li>
+  <li><strong>source</strong> (<code class="language-plaintext highlighter-rouge">assets</code>, <code class="language-plaintext highlighter-rouge">projects</code> or <code class="language-plaintext highlighter-rouge">raw</code>)
+    <ul>
+      <li><em>default</em> - get image from the <code class="language-plaintext highlighter-rouge">/images/posts/</code> directory (, or the path configured as the <code class="language-plaintext highlighter-rouge">image_path.default</code> in <code class="language-plaintext highlighter-rouge">_config.yml</code>)</li>
+      <li><code class="language-plaintext highlighter-rouge">assets</code> - get image from the <code class="language-plaintext highlighter-rouge">/assets/images/</code> directory (, or the path configured as the <code class="language-plaintext highlighter-rouge">image_path.assets</code> in <code class="language-plaintext highlighter-rouge">_config.yml</code>)</li>
+      <li><code class="language-plaintext highlighter-rouge">projects</code> - get image from the <code class="language-plaintext highlighter-rouge">/images/projects/</code> directory (, or the path configured as the <code class="language-plaintext highlighter-rouge">image_path.projects</code> in <code class="language-plaintext highlighter-rouge">_config.yml</code>)</li>
+      <li><code class="language-plaintext highlighter-rouge">raw</code> - get image from the specified URL</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Sample:</p>
+<figure><amp-img width="1024" height="683" layout="intrinsic" src="/amp-affiliately-jekyll-theme/assets/images/lucas-vasques-9vnACvX2748-unsplash_1024x683.webp" alt="Photo captured during office hours of a company in Brazil." on="tap:lightbox1" role="button" tabindex="0" aria-label="lightbox">
+        <amp-img fallback="" width="1024" height="683" layout="intrinsic" src="/amp-affiliately-jekyll-theme/assets/images/lucas-vasques-9vnACvX2748-unsplash_1024x683.jpg" alt="Photo captured during office hours of a company in Brazil." on="tap:lightbox1" role="button" tabindex="0" aria-label="lightbox"></amp-img>
+      </amp-img></figure>
+<p>Photo captured during office hours of a company in Brazil.
+<span>Photo by <a href="https://unsplash.com/@luvqs?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Lucas Vasques</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
+
+<hr />
+
+<h4 id="image-with-caption">Image with Caption</h4>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="p">{</span><span class="sx">% include </span><span class="n">picture</span><span class="p">.</span><span class="nf">html</span> <span class="o">...</span> <span class="n">caption</span><span class="o">=</span><span class="s2">"__descriptions__&lt;br&gt;__attributions__"</span> <span class="o">%</span><span class="p">}</span>
+
+</code></pre></div></div>
+
+<p>Sample:</p>
+
+<figure><amp-img width="1024" height="682" layout="responsive" src="/amp-affiliately-jekyll-theme/assets/images/science-in-hd-N4-deIU3kQI-unsplash_1024x682.webp" alt="Image in Media" on="tap:lightbox1" role="button" tabindex="0" aria-label="lightbox">
+        <amp-img fallback="" width="1024" height="682" layout="responsive" src="/amp-affiliately-jekyll-theme/assets/images/science-in-hd-N4-deIU3kQI-unsplash_1024x682.jpg" alt="Image in Media" on="tap:lightbox1" role="button" tabindex="0" aria-label="lightbox"></amp-img>
+      </amp-img><figcaption>NREL researcher holds a perovskite ink painted cell. NREL researchers have developed an interdigitated back contact solar cell design in which the metals and transport materials are solution processed by either ink jet or spray coating. Combined with a perovskite ink formulation with a low boiling point (&lt;80 C) allows "paintable" solar cells.<br /><span>Photo by <a href="https://unsplash.com/@scienceinhd?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Science in HD</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></figcaption></figure>
+
+<h4 id="image-with-link">Image with Link</h4>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="p">{</span><span class="sx">% include </span><span class="n">picture</span><span class="p">.</span><span class="nf">html</span> <span class="o">...</span> <span class="n">link</span><span class="o">=</span><span class="s2">"&lt;DESTINATION_URL&gt;"</span> <span class="o">%</span><span class="p">}</span>
+
+</code></pre></div></div>
+
+<p>Sample:</p>
+
+<figure><a href="https://unsplash.com/photos/NP6JLl_2C-c"><amp-img width="1024" height="683" layout="responsive" src="/amp-affiliately-jekyll-theme/assets/images/science-in-hd-NP6JLl_2C-c-unsplash_1024x683.webp" alt="Image in Media">
+        <amp-img fallback="" width="1024" height="683" layout="responsive" src="/amp-affiliately-jekyll-theme/assets/images/science-in-hd-NP6JLl_2C-c-unsplash_1024x683.jpg" alt="Image in Media"></amp-img>
+      </amp-img></a><figcaption><span>Photo by <a href="https://unsplash.com/@scienceinhd?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Science in HD</a> on <a href="https://unsplash.com/photos/37-obwmRiAI?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></figcaption></figure>
+
+<p class="text-center"><strong>Click the Image Above to View the Original Image on Unsplash</strong> 👆</p>
+
+<hr />
+
+<h4 id="image-with-disabling-lightbox">Image with Disabling Lightbox</h4>
+
+<p>Sample:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="p">{</span><span class="sx">% include </span><span class="n">picture</span><span class="p">.</span><span class="nf">html</span> <span class="o">...</span> <span class="n">lightbox</span><span class="o">=</span><span class="kp">false</span> <span class="sx">%}
+
+</span></code></pre></div></div>
+
+<figure><amp-img width="96" height="96" layout="intrinsic" src="/amp-affiliately-jekyll-theme/assets/images/favicon_96x96.webp" alt="Image in Media">
+        <amp-img fallback="" width="96" height="96" layout="intrinsic" src="/amp-affiliately-jekyll-theme/assets/images/favicon_96x96.png" alt="Image in Media"></amp-img>
+      </amp-img></figure>
+
+<hr />
+
+<h4 id="image-with-classes">Image with Classes</h4>
+
+<p>Sample 1:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="p">{</span><span class="sx">% include </span><span class="n">picture</span><span class="p">.</span><span class="nf">html</span> <span class="o">...</span> <span class="k">class</span><span class="o">=</span><span class="s2">"text-center shadow-none"</span> <span class="o">%</span><span class="p">}</span>
+
+</code></pre></div></div>
+
+<figure class="text-center shadow-none"><amp-img width="96" height="96" layout="intrinsic" src="/amp-affiliately-jekyll-theme/assets/images/favicon_96x96.webp" alt="Image in Media" on="tap:lightbox1" role="button" tabindex="0" aria-label="lightbox">
+        <amp-img fallback="" width="96" height="96" layout="intrinsic" src="/amp-affiliately-jekyll-theme/assets/images/favicon_96x96.png" alt="Image in Media" on="tap:lightbox1" role="button" tabindex="0" aria-label="lightbox"></amp-img>
+      </amp-img></figure>
+
+<p>Sample 2:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="p">{</span><span class="sx">% include </span><span class="n">picture</span><span class="p">.</span><span class="nf">html</span> <span class="o">...</span> <span class="k">class</span><span class="o">=</span><span class="s2">"text-center fa-rotate-180"</span> <span class="o">%</span><span class="p">}</span>
+
+</code></pre></div></div>
+
+<figure class="text-center fa-rotate-180"><amp-img width="96" height="96" layout="intrinsic" src="/amp-affiliately-jekyll-theme/assets/images/favicon_96x96.webp" alt="Image in Media" on="tap:lightbox1" role="button" tabindex="0" aria-label="lightbox">
+        <amp-img fallback="" width="96" height="96" layout="intrinsic" src="/amp-affiliately-jekyll-theme/assets/images/favicon_96x96.png" alt="Image in Media" on="tap:lightbox1" role="button" tabindex="0" aria-label="lightbox"></amp-img>
+      </amp-img></figure>
+
+<hr />
+
+<h3 id="video">Video</h3>
+
+<p>You need to include the following front-matter variable to enable YouTube embeds.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">amp</span><span class="pi">:</span>
+   <span class="na">youtube</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div></div>
+
+<h4 id="embedding-a-youtube-video">Embedding a YouTube Video</h4>
+
+<p>To embed a single video, use the following tag to include the <code class="language-plaintext highlighter-rouge">youtube.html</code> template.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="p">{</span><span class="sx">% include </span><span class="n">youtube</span><span class="p">.</span><span class="nf">html</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"&lt;YOUTUBE_VIDEO_UID&gt;"</span> <span class="o">%</span><span class="p">}</span>
+
+</code></pre></div></div>
+
+<ul>
+  <li><strong>id</strong> - <em>required</em></li>
+  <li><strong>title</strong> - <em>optional</em></li>
+</ul>
+
+<p>Sample:</p>
+
+<amp-youtube width="480" height="270" layout="responsive" data-videoid="8jumRGDgxiY" data-param-rel="0">
+  <div fallback="">
+    <p>This browser does not support the YouTube video player. <a href="https://youtu.be/8jumRGDgxiY" rel="noopener" target="_blank">Watch on YouTube</a></p>
+  </div>
+</amp-youtube>
+<amp-analytics type="gtag" data-credentials="include">
+  <script type="application/json">
+    {
+      "vars" : {
+        "gtag_id": "UA-72575541-9",
+        "config" : {
+          "UA-72575541-9": { "groups": "default" }
+        }
+      },
+      "triggers": {
+        "videoPlay": {
+          "on": "video-play",
+          "request": "event",
+          "selector": "amp-youtube[data-videoid='8jumRGDgxiY']",
+          "vars": {
+            "event_category": "AMP YouTube player (client-side)",
+            "event_name": "Video Started",
+            "event_label": "youtu.be/8jumRGDgxiY",
+            "method": "Google"
+          }
+        },
+        "videoPause": {
+          "on": "video-pause",
+          "request": "event",
+          "selector": "amp-youtube[data-videoid='8jumRGDgxiY']",
+          "vars": {
+            "event_category": "AMP YouTube player (client-side)",
+            "event_name": "Video Paused",
+            "event_label": "youtu.be/8jumRGDgxiY",
+            "method": "Google"
+          }
+        },
+        "videoEnded": {
+          "on": "video-ended",
+          "request": "event",
+          "selector": "amp-youtube[data-videoid='8jumRGDgxiY']",
+          "vars": {
+            "event_name": "Video Ended",
+            "event_category": "AMP YouTube player (client-side)",
+            "event_label": "youtu.be/8jumRGDgxiY",
+            "method": "Google"
+          }
+        }
+      }
+    }
+  </script>
+</amp-analytics>
+
+<p><br /></p>
+
+<h4 id="embedding-a-youtube-playlist">Embedding a YouTube Playlist</h4>
+
+<p>To embed a playlist, you need to set both the <em>playlist ID</em> and the <em>ID of the first video within the playlist</em>.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="p">{</span><span class="sx">% include </span><span class="n">youtube</span><span class="p">.</span><span class="nf">html</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"&lt;YOUTUBE_VIDEO_UID&gt;"</span> <span class="n">playlist</span><span class="o">=</span><span class="s2">"&lt;YOUTUBE_PLAYLIST_UID&gt;"</span> <span class="o">%</span><span class="p">}</span>
+
+</code></pre></div></div>
+
+<ul>
+  <li><strong>id</strong> - <em>required</em></li>
+  <li><strong>playlist</strong> - <em>required</em></li>
+  <li><strong>title</strong> - <em>optional</em></li>
+</ul>
+
+<hr />
+
+<h3 id="audio">Audio</h3>
+
+<p>By default, this theme does not include the <code class="language-plaintext highlighter-rouge">amp-audio</code> components. But you can enable the feature by adding the following to your post’s front matter:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">async</span> <span class="na">custom-element=</span><span class="s">"amp-audio"</span> <span class="na">src=</span><span class="s">"https://cdn.ampproject.org/v0/amp-audio-0.1.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<p>In your post body, use inline HTML to embed audio using the &lt;amp-audio&gt; tag, e.g.:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;amp-audio</span> <span class="na">width=</span><span class="s">"auto"</span> <span class="na">height=</span><span class="s">"50"</span> <span class="na">src=</span><span class="s">"&lt;HTTPS_URL_TO_LOAD__AUDIO&gt;"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">fallback</span><span class="nt">&gt;</span>Your browser doesn’t support HTML5 audio<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/amp-audio&gt;</span>
+</code></pre></div></div>
+
+<p>Sample:</p>
+<amp-audio width="auto" height="50" src="https://ia801402.us.archive.org/16/items/EDIS-SRP-0197-06/EDIS-SRP-0197-06.mp3">
+  <div fallback="">
+    <p>Your browser doesn’t support HTML5 audio</p>
+  </div>
+</amp-audio>
+
+<p><br /></p>]]></content><author><name>Chris KY Fung</name></author><category term="[&quot;feature&quot;, &quot;doc&quot;]" /><category term="image" /><category term="audio" /><category term="youtube" /><category term="AMP" /><category term="styles" /><category term="demo" /><summary type="html"><![CDATA[The demos and docs for Images, Videos, and Audios in AMP.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/digital-1985681_730.png" /><media:content medium="image" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/digital-1985681_730.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Red Riding Hood</title><link href="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/2018/01/12/red-riding" rel="alternate" type="text/html" title="Red Riding Hood" /><published>2018-01-12T00:00:00+08:00</published><updated>2018-01-12T00:00:00+08:00</updated><id>https://chriskyfung.github.io/amp-affiliately-jekyll-theme/2018/01/12/red-riding</id><content type="html" xml:base="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/2018/01/12/red-riding"><![CDATA[<p>The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the protagonist herself with the troublesome wolf curled at her feet. Produced by the Boston-based publisher Louis Prang, this is the first in their “Doll Series”, a set of five “die-cut” books, known also as shape books — the other titles being Robinson Crusoe, Goody Two-Shoes (also written by Red Riding Hood author Lydia Very), Cinderella, and King Winter.</p>
+
+<p>An 1868 Prang catalogue would later claim that such “books in the shape of a regular paper Doll… originated with us”.</p>
+
+<blockquote>
+  <p>It would seem the claim could also extend to die cut books in general, as we can’t find anything sooner, but do let us know in the comments if you have further light to shed on this! Such books are, of course, still popular in children’s publishing today, though the die cutting is not now limited to mere outlines, as evidenced in a beautiful 2014 version of the same Little Red Riding Hood story.</p>
+</blockquote>
+
+<p>The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes.</p>
+
+<p>As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original — which sees Little Red Riding Hood being gobbled up as well as her grandmother — is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.</p>]]></content><author><name>sal</name></author><category term="sample" /><category term="left sidebar" /><summary type="html"><![CDATA[The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the protagonist herself with the troublesome wolf curled at her feet. Produced by the Boston-based publisher Louis Prang, this is the first in their “Doll Series”, a set of five “die-cut” books, known also as shape books — the other titles being Robinson Crusoe, Goody Two-Shoes (also written by Red Riding Hood author Lydia Very), Cinderella, and King Winter.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/3.jpg" /><media:content medium="image" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/3.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Is Intelligence Enough</title><link href="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/2018/01/12/is-intelligence-enough" rel="alternate" type="text/html" title="Is Intelligence Enough" /><published>2018-01-12T00:00:00+08:00</published><updated>2018-01-12T00:00:00+08:00</updated><id>https://chriskyfung.github.io/amp-affiliately-jekyll-theme/2018/01/12/is-intelligence-enough</id><content type="html" xml:base="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/2018/01/12/is-intelligence-enough"><![CDATA[<p>Education must also train one for quick, resolute and effective thinking. To think incisively and to think for one’s self is very difficult.</p>
+
+<blockquote>
+  <p>We are prone to let our mental life become invaded by legions of half truths, prejudices, and propaganda. At this point, I often wonder whether or not education is fulfilling its purpose. A great majority of the so-called educated people do not think logically and scientifically.</p>
+</blockquote>
+
+<p>Even the press, the classroom, the platform, and the pulpit in many instances do not give us objective and unbiased truths. To save man from the morass of propaganda, in my opinion, is one of the chief aims of education. Education must enable one to sift and weigh evidence, to discern the true from the false, the real from the unreal, and the facts from the fiction.</p>
+
+<p>The function of education, therefore, is to teach one to think intensively and to think critically. But education which stops with efficiency may prove the greatest menace to society. The most dangerous criminal may be the man gifted with reason, but with no morals.</p>
+
+<p>The late Eugene Talmadge, in my opinion, possessed one of the better minds of Georgia, or even America. Moreover, he wore the Phi Beta Kappa key. By all measuring rods, Mr. Talmadge could think critically and intensively; yet he contends that I am an inferior being. Are those the types of men we call educated?</p>
+
+<p>We must remember that intelligence is not enough. Intelligence plus character–that is the goal of true education. The complete education gives one not only power of concentration, but worthy objectives upon which to concentrate. The broad education will, therefore, transmit to one not only the accumulated knowledge of the race but also the accumulated experience of social living.</p>]]></content><author><name>sal</name></author><category term="sample" /><summary type="html"><![CDATA[Education must also train one for quick, resolute and effective thinking. To think incisively and to think for one’s self is very difficult.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/5.jpg" /><media:content medium="image" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/5.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
