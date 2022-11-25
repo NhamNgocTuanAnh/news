@@ -125,15 +125,13 @@
       <div class="container" role="menu">
         <!-- Logo -->
         <a class="navbar-brand" href="/" role="menuitem" title="Go to Site Home">
-          <amp-img src="{{ site.logo | relative_url }}" alt="site logo" height="36" width="140" style="width:140px;height:36px;" noloading>
-            <amp-img fallback src="{{ site.logo | relative_url }}" alt="site logo" height="36" width="140" noloading></amp-img>
-          </amp-img>
+Về blog
         </a>
         {%- if site.baseurl != "" and site.baseurl != "/" and site.pages.size > 1 -%}
         {%- assign maxLength = site.nav.local.max_title_length | default: 30 -%}
         <div class="navbar-nav">
           <div class="nav-item">
-            <a class="nav-link" href="{{ "/" | relative_url }}" role="menuitem" title="↰ Top Page" aria-label="Go to the Top Page of {{ site.title }}">{{ site.title | truncate: maxLength }} <i class="fas fa-anchor" aria-hidden="true"></i></a>
+            <a class="nav-link" href="{{ "/" | relative_url }}" role="menuitem" title="↰ Top Page" aria-label="Go to the Top Page of {{ site.title }}">{{ site.title | truncate: maxLength }} <i class="fa-regular fa-stars"></i></a>
           </div>
         </div>
         {%- endif -%}
