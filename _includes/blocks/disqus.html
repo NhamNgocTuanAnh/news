@@ -5,14 +5,16 @@
   <div id="comments">
       <h4 class="mb-4">Comments</h4>
       <div class="article-post">
-          {% if page.isGithubComments != false %}
+
+          {% if page.isGithubComments == true %}
           <script src="https://giscus.app/client.js" data-repo="nhamngoctuananh/nhamngoctuananh.github.io"
               data-repo-id="R_kgDOGi2Xag" data-category="Q&A" data-category-id="DIC_kwDOGi2Xas4CRbIn"
               data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="1"
               data-input-position="top" data-theme="github-light" data-lang="vi" data-loading="lazy"
               crossorigin="anonymous" async>
               </script>
-          {% elsif  page.isGithubComments == false %}
+
+          {% else %}
           <p style="text-align:center; ">
               <div id="fb-root"></div>
               <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-numposts="5"  data-width="100%"></div>
