@@ -1,1 +1,1 @@
-Sitemap: https://chriskyfung.github.io/amp-affiliately-jekyll-theme/sitemap.xml
+Sitemap: https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/sitemap.xml

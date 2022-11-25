@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/feed.xml" rel="self" type="application/atom+xml" /><link href="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/" rel="alternate" type="text/html" /><updated>2022-11-26T05:55:59+08:00</updated><id>https://chriskyfung.github.io/amp-affiliately-jekyll-theme/feed.xml</id><title type="html">AMP Affiliately Jekyll Theme</title><subtitle>Tin tức nổi bật</subtitle><entry><title type="html">Plugins and Extensions</title><link href="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/plugins/" rel="alternate" type="text/html" title="Plugins and Extensions" /><published>2021-09-08T12:00:00+08:00</published><updated>2021-09-08T12:00:00+08:00</updated><id>https://chriskyfung.github.io/amp-affiliately-jekyll-theme/plugins</id><content type="html" xml:base="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/plugins/"><![CDATA[<aside style="position: relative;">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/" rel="alternate" type="text/html" /><updated>2022-11-26T06:03:03+08:00</updated><id>https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/feed.xml</id><title type="html">AMP Affiliately Jekyll Theme</title><subtitle>Tin tức nổi bật</subtitle><entry><title type="html">Plugins and Extensions</title><link href="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/plugins/" rel="alternate" type="text/html" title="Plugins and Extensions" /><published>2021-09-08T12:00:00+08:00</published><updated>2021-09-08T12:00:00+08:00</updated><id>https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/plugins</id><content type="html" xml:base="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/plugins/"><![CDATA[<aside style="position: relative;">
     <a href="#toc-skipped" class="screen-reader-only">Skip table of contents</a>
 </aside>
 
@@ -63,7 +63,7 @@
 <p><strong>Usage</strong>:</p>
 
 <ol>
-  <li><a href="/amp-affiliately-jekyll-theme/config-guide/#2021-08-02-config-guide">Setup the pagination</a> for posts on your blog in your <code class="language-plaintext highlighter-rouge">_config.yml</code> file.</li>
+  <li><a href="/pages/chriskyfung/amp-affiliately-jekyll-theme/config-guide/#2021-08-02-config-guide">Setup the pagination</a> for posts on your blog in your <code class="language-plaintext highlighter-rouge">_config.yml</code> file.</li>
   <li>
     <p>Use the following code to render paginated posts and pagination links in an HTML file:</p>
 
@@ -101,7 +101,7 @@
 
 <p><a href="https://github.com/jekyll/jekyll-seo-tag"><strong>jekyll-seo-tag</strong></a> is a Jekyll plugin to add metadata tags for search engines and social networks to better index and display your site’s content. It provides rich settings for site-level and on-page SEO.</p>
 
-<p>💡 Also, read the <a href="/amp-affiliately-jekyll-theme/config-guide/#seo-configuration">Config Guide</a> and the <a href="/amp-affiliately-jekyll-theme/front-matter-guide/#on-page-seo">Front Matter Guide</a> to learn more about the basic usages within this theme and on-page SEO for post metadata, respectively.</p>
+<p>💡 Also, read the <a href="/pages/chriskyfung/amp-affiliately-jekyll-theme/config-guide/#seo-configuration">Config Guide</a> and the <a href="/pages/chriskyfung/amp-affiliately-jekyll-theme/front-matter-guide/#on-page-seo">Front Matter Guide</a> to learn more about the basic usages within this theme and on-page SEO for post metadata, respectively.</p>
 
 <h3 id="-jekyll-sitemap"><i class="fas fa-sitemap fa-fw"></i> Jekyll sitemap</h3>
 
@@ -198,7 +198,7 @@
     </samp>
  </p>
   </li>
-</ul>]]></content><author><name></name></author><category term="[&quot;doc&quot;]" /><category term="plugin" /><category term="_config" /><summary type="html"><![CDATA[List of Jekyll plugins being used and/or supported by this AMP Jekyll theme]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/puzzle-3311601.svg" /><media:content medium="image" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/puzzle-3311601.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Config Guide</title><link href="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/config-guide/" rel="alternate" type="text/html" title="Config Guide" /><published>2021-08-24T00:01:00+08:00</published><updated>2021-08-23T23:00:00+08:00</updated><id>https://chriskyfung.github.io/amp-affiliately-jekyll-theme/config-guide</id><content type="html" xml:base="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/config-guide/"><![CDATA[<aside style="position: relative;">
+</ul>]]></content><author><name></name></author><category term="[&quot;doc&quot;]" /><category term="plugin" /><category term="_config" /><summary type="html"><![CDATA[List of Jekyll plugins being used and/or supported by this AMP Jekyll theme]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/puzzle-3311601.svg" /><media:content medium="image" url="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/puzzle-3311601.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Config Guide</title><link href="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/config-guide/" rel="alternate" type="text/html" title="Config Guide" /><published>2021-08-24T00:01:00+08:00</published><updated>2021-08-23T23:00:00+08:00</updated><id>https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/config-guide</id><content type="html" xml:base="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/config-guide/"><![CDATA[<aside style="position: relative;">
     <a href="#toc-skipped" class="screen-reader-only">Skip table of contents</a>
 </aside>
 
@@ -315,7 +315,7 @@
 <ul>
   <li><a href="https://jekyllrb.com/docs/configuration/options/" title="Offical Jekyll Documentation">Configuration Options | Jekyllrb</a></li>
   <li><a href="https://jekyllrb.com/docs/configuration/default/" title="Offical Jekyll Documentation">Default Configuration | Jekyllrb</a></li>
-  <li><a href="/amp-affiliately-jekyll-theme/plugins/#-jekyll-paginate">Render Paginated Posts</a></li>
+  <li><a href="/pages/chriskyfung/amp-affiliately-jekyll-theme/plugins/#-jekyll-paginate">Render Paginated Posts</a></li>
 </ul>
 
 <hr />
@@ -517,7 +517,7 @@ The following options provide the granular control to those menu items:</p>
   <tbody>
     <tr>
       <td style="text-align: center"><code class="language-plaintext highlighter-rouge">anchor_link</code></td>
-      <td>Set <code class="language-plaintext plaintext highlighter-rouge">true</code> to attach an anchor link to H2-H4 elements inside posts’ content similar to <a href="https://www.bryanbraun.com/anchorjs/">AnchorJS</a> (<a href="/amp-affiliately-jekyll-theme/post-processing/#add-anchor-link-for-h2-h3-and-h4-headings">View Demo</a>).<br /> <em>Default:</em> <code class="language-plaintext plaintext highlighter-rouge">false</code>.</td>
+      <td>Set <code class="language-plaintext plaintext highlighter-rouge">true</code> to attach an anchor link to H2-H4 elements inside posts’ content similar to <a href="https://www.bryanbraun.com/anchorjs/">AnchorJS</a> (<a href="/pages/chriskyfung/amp-affiliately-jekyll-theme/post-processing/#add-anchor-link-for-h2-h3-and-h4-headings">View Demo</a>).<br /> <em>Default:</em> <code class="language-plaintext plaintext highlighter-rouge">false</code>.</td>
     </tr>
   </tbody>
 </table>
@@ -792,7 +792,7 @@ The following options provide the granular control to those menu items:</p>
   </tbody>
 </table>
 
-<p>💡 Read the <a href="/amp-affiliately-jekyll-theme/ads-settings/">Ads Settings</a> documentation</p>
+<p>💡 Read the <a href="/pages/chriskyfung/amp-affiliately-jekyll-theme/ads-settings/">Ads Settings</a> documentation</p>
 
 <h5 id="-google-tag-manager-gtm"><i class="fas fa-expand fa-fw" style="transform: rotate(45deg)"></i> Google Tag Manager (GTM)</h5>
 
@@ -838,9 +838,9 @@ The following options provide the granular control to those menu items:</p>
       <td><span class="badge badge-success">v2.0</span> Enable side-widely display <strong>Resourece</strong> widget in sidebar.<br /> <em>Default:</em> <code class="language-plaintext plaintext highlighter-rouge">true</code>.</td>
     </tr>
   </tbody>
-</table>]]></content><author><name></name></author><category term="[&quot;doc&quot;]" /><category term="_config" /><summary type="html"><![CDATA[The docs for the theme settings that let you control the global styling like logo, navigation, sidebar, footer, pagnitation, etc.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/settings-3311592.svg" /><media:content medium="image" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/settings-3311592.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Post-Processing</title><link href="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/post-processing/" rel="alternate" type="text/html" title="Post-Processing" /><published>2021-08-15T23:15:00+08:00</published><updated>2021-08-22T09:41:00+08:00</updated><id>https://chriskyfung.github.io/amp-affiliately-jekyll-theme/postprocessing</id><content type="html" xml:base="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/post-processing/"><![CDATA[<h2 id="add-anchor-link-for-h2-h3-and-h4-headings">Add Anchor Link For H2, H3 And H4 Headings</h2>
+</table>]]></content><author><name></name></author><category term="[&quot;doc&quot;]" /><category term="_config" /><summary type="html"><![CDATA[The docs for the theme settings that let you control the global styling like logo, navigation, sidebar, footer, pagnitation, etc.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/settings-3311592.svg" /><media:content medium="image" url="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/settings-3311592.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Post-Processing</title><link href="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/post-processing/" rel="alternate" type="text/html" title="Post-Processing" /><published>2021-08-15T23:15:00+08:00</published><updated>2021-08-22T09:41:00+08:00</updated><id>https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/postprocessing</id><content type="html" xml:base="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/post-processing/"><![CDATA[<h2 id="add-anchor-link-for-h2-h3-and-h4-headings">Add Anchor Link For H2, H3 And H4 Headings</h2>
 
-<p>Starting from <span class="badge badge-success">v2.0</span>, it is enable to attach an anchor link to <strong>H2</strong>-<strong>H4</strong> elements inside posts’ content similar to <a href="https://www.bryanbraun.com/anchorjs/">AnchorJS</a> with no dependencies. See the <a href="/amp-affiliately-jekyll-theme/config-guide/#-add-anchor-link-for-h2-h3-and-h4-headings">Config Guide</a> if you perfer to disable this feature in your site.</p>
+<p>Starting from <span class="badge badge-success">v2.0</span>, it is enable to attach an anchor link to <strong>H2</strong>-<strong>H4</strong> elements inside posts’ content similar to <a href="https://www.bryanbraun.com/anchorjs/">AnchorJS</a> with no dependencies. See the <a href="/pages/chriskyfung/amp-affiliately-jekyll-theme/config-guide/#-add-anchor-link-for-h2-h3-and-h4-headings">Config Guide</a> if you perfer to disable this feature in your site.</p>
 
 <p><strong>Examples</strong></p>
 
@@ -900,7 +900,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 <p>Starting from <span class="badge badge-success">v2.0</span>, this theme replace the non-whitelist <code class="language-plaintext highlighter-rouge">jekyll-target-blank.rb</code> plugin with pure Liquid templating language to modify the links.</p>
 
-<p>See the <a href="/amp-affiliately-jekyll-theme/config-guide/#-modify-external-links-to-open-in-new-tab">Config Guide</a> if you also want to set opening the external links in a new tab.</p>
+<p>See the <a href="/pages/chriskyfung/amp-affiliately-jekyll-theme/config-guide/#-modify-external-links-to-open-in-new-tab">Config Guide</a> if you also want to set opening the external links in a new tab.</p>
 
 <p><strong>Examples</strong></p>
 
@@ -956,12 +956,12 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 <h3 id="image-in-amp">Image in AMP</h3>
 
-<figure><a href="https://github.com/chriskyfung/amp-affiliately-jekyll-theme"><amp-img width="96" height="96" layout="intrinsic" src="/amp-affiliately-jekyll-theme/assets/images/favicon_96x96.webp" alt="Image in Post-Processing">
-        <amp-img fallback="" width="96" height="96" layout="intrinsic" src="/amp-affiliately-jekyll-theme/assets/images/favicon_96x96.png" alt="Image in Post-Processing"></amp-img>
+<figure><a href="https://github.com/chriskyfung/amp-affiliately-jekyll-theme"><amp-img width="96" height="96" layout="intrinsic" src="/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/favicon_96x96.webp" alt="Image in Post-Processing">
+        <amp-img fallback="" width="96" height="96" layout="intrinsic" src="/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/favicon_96x96.png" alt="Image in Post-Processing"></amp-img>
       </amp-img></a></figure>
 
 
-</section>]]></content><author><name></name></author><category term="[&quot;feature&quot;]" /><category term="styles" /><category term="demo" /><summary type="html"><![CDATA[The demo and test page of the Anchor Links for headings and the Link Modifier on various Markdown styles.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/processing_o128.png" /><media:content medium="image" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/processing_o128.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Front Matter Guide</title><link href="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/front-matter-guide/" rel="alternate" type="text/html" title="Front Matter Guide" /><published>2021-07-31T12:05:00+08:00</published><updated>2021-09-28T15:00:00+08:00</updated><id>https://chriskyfung.github.io/amp-affiliately-jekyll-theme/front-matter</id><content type="html" xml:base="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/front-matter-guide/"><![CDATA[<aside style="position: relative;">
+</section>]]></content><author><name></name></author><category term="[&quot;feature&quot;]" /><category term="styles" /><category term="demo" /><summary type="html"><![CDATA[The demo and test page of the Anchor Links for headings and the Link Modifier on various Markdown styles.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/processing_o128.png" /><media:content medium="image" url="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/processing_o128.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Front Matter Guide</title><link href="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/front-matter-guide/" rel="alternate" type="text/html" title="Front Matter Guide" /><published>2021-07-31T12:05:00+08:00</published><updated>2021-09-28T15:00:00+08:00</updated><id>https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/front-matter</id><content type="html" xml:base="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/front-matter-guide/"><![CDATA[<aside style="position: relative;">
     <a href="#toc-skipped" class="screen-reader-only">Skip table of contents</a>
 </aside>
 
@@ -1192,7 +1192,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 <ul>
   <li><a href="https://getbootstrap.com/docs/4.0/components/badge/" title="Bootstrap 4">Badges</a></li>
-  <li><a href="/amp-affiliately-jekyll-theme/code/" title="AMP Affiliately Jekyll Theme">Code Block</a></li>
+  <li><a href="/pages/chriskyfung/amp-affiliately-jekyll-theme/code/" title="AMP Affiliately Jekyll Theme">Code Block</a></li>
   <li><a href="https://www.w3schools.com/howto/howto_css_table_zebra.asp" title="W3Schools">How To Create A Zebra Striped Table</a></li>
 </ul>
 
@@ -1204,7 +1204,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <span class="na">youtube</span><span class="pi">:</span> <span class="no">true</span>  <span class="c1"># page level</span>
 </code></pre></div></div>
 
-<p><strong>💡 Related:</strong> <a href="/amp-affiliately-jekyll-theme/media/#video" title="AMP Affiliately Jekyll Theme">How to include YouTube Video and Playlist embeds</a></p>
+<p><strong>💡 Related:</strong> <a href="/pages/chriskyfung/amp-affiliately-jekyll-theme/media/#video" title="AMP Affiliately Jekyll Theme">How to include YouTube Video and Playlist embeds</a></p>
 
 <hr />
 
@@ -1250,7 +1250,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 <p>When you use this theme for the website of a Github project repository, it is available to show buttons that link to the repository and a release file in the sidebar.</p>
 
-<p>Follow our <a href="/amp-affiliately-jekyll-theme/config-guide/">Config Guide</a> to set up your <code class="language-plaintext highlighter-rouge">_config.yml</code> file.</p>
+<p>Follow our <a href="/pages/chriskyfung/amp-affiliately-jekyll-theme/config-guide/">Config Guide</a> to set up your <code class="language-plaintext highlighter-rouge">_config.yml</code> file.</p>
 
 <p>If a release exists in the repository, an additional button that links to the webpage of the latest release will be shown in the widget.</p>
 
@@ -1380,7 +1380,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <ul>
   <li><a href="https://jekyllrb.com/docs/configuration/front-matter-defaults/" title="Official Jekyll Documentation">Front Matter Defaults | Jekyllrb</a></li>
   <li><a href="https://github.com/chriskyfung/amp-affiliately-jekyll-theme/blob/master/README.md" title="GitHub">README.md - amp-affiliately-jekyll-theme</a></li>
-</ul>]]></content><author><name></name></author><category term="[&quot;doc&quot;]" /><category term="front matter" /><category term="styles" /><category term="AMP" /><summary type="html"><![CDATA[The docs for the front matters that that let you control the post title, date, featured image, CSS styles, etc.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/frontend-4342425_730.png" /><media:content medium="image" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/frontend-4342425_730.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Responsive Web Design</title><link href="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/responsive-web-design/" rel="alternate" type="text/html" title="Responsive Web Design" /><published>2021-07-20T10:47:00+08:00</published><updated>2021-07-20T10:47:00+08:00</updated><id>https://chriskyfung.github.io/amp-affiliately-jekyll-theme/device-look</id><content type="html" xml:base="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/responsive-web-design/"><![CDATA[<p>Preview the look of the responsive design for different devices (smartphone <i class="fas fa-mobile-alt"></i> , tablet <i class="fas fa-tablet-alt"></i> and laptop <i class="fas fa-laptop"></i>) – <em><strong>Remark</strong>: This page does not support for Internet Explorer (IE)</em></p>
+</ul>]]></content><author><name></name></author><category term="[&quot;doc&quot;]" /><category term="front matter" /><category term="styles" /><category term="AMP" /><summary type="html"><![CDATA[The docs for the front matters that that let you control the post title, date, featured image, CSS styles, etc.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/frontend-4342425_730.png" /><media:content medium="image" url="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/frontend-4342425_730.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Responsive Web Design</title><link href="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/responsive-web-design/" rel="alternate" type="text/html" title="Responsive Web Design" /><published>2021-07-20T10:47:00+08:00</published><updated>2021-07-20T10:47:00+08:00</updated><id>https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/device-look</id><content type="html" xml:base="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/responsive-web-design/"><![CDATA[<p>Preview the look of the responsive design for different devices (smartphone <i class="fas fa-mobile-alt"></i> , tablet <i class="fas fa-tablet-alt"></i> and laptop <i class="fas fa-laptop"></i>) – <em><strong>Remark</strong>: This page does not support for Internet Explorer (IE)</em></p>
 
 <div style="display:flex;flex-wrap:wrap;">
 
@@ -1414,7 +1414,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <h3 class="text-center">Laptop</h3>
   </div>
 
-</div>]]></content><author><name></name></author><category term="[&quot;feature&quot;]" /><category term="demo" /><summary type="html"><![CDATA[Preview the look for different devices (smartphone 📱, tablet 💻 and laptop 🖥️)]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/responsive-1622825_730.png" /><media:content medium="image" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/responsive-1622825_730.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ads Settings</title><link href="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/ads-settings/" rel="alternate" type="text/html" title="Ads Settings" /><published>2021-04-02T11:00:00+08:00</published><updated>2021-04-02T11:00:00+08:00</updated><id>https://chriskyfung.github.io/amp-affiliately-jekyll-theme/ads-settings</id><content type="html" xml:base="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/ads-settings/"><![CDATA[<aside style="position: relative;">
+</div>]]></content><author><name></name></author><category term="[&quot;feature&quot;]" /><category term="demo" /><summary type="html"><![CDATA[Preview the look for different devices (smartphone 📱, tablet 💻 and laptop 🖥️)]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/responsive-1622825_730.png" /><media:content medium="image" url="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/responsive-1622825_730.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ads Settings</title><link href="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/ads-settings/" rel="alternate" type="text/html" title="Ads Settings" /><published>2021-04-02T11:00:00+08:00</published><updated>2021-04-02T11:00:00+08:00</updated><id>https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/ads-settings</id><content type="html" xml:base="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/ads-settings/"><![CDATA[<aside style="position: relative;">
     <a href="#toc-skipped" class="screen-reader-only">Skip table of contents</a>
 </aside>
 
@@ -1512,8 +1512,8 @@ This is highly undesirable because it will give a very bad user experience.</p>
 
 <p>To make it a little nicer, a small icon is set as the background image of each <code class="language-plaintext highlighter-rouge">&lt;amp-ad&gt;</code> element as shown below.</p>
 
-<figure><amp-img width="751" height="285" layout="intrinsic" src="/amp-affiliately-jekyll-theme/assets/images/ad-placement-background-image.webp" alt="Icon displays at the Ad placement" on="tap:lightbox1" role="button" tabindex="0" aria-label="lightbox">
-        <amp-img fallback="" width="751" height="285" layout="intrinsic" src="/amp-affiliately-jekyll-theme/assets/images/ad-placement-background-image.png" alt="Icon displays at the Ad placement" on="tap:lightbox1" role="button" tabindex="0" aria-label="lightbox"></amp-img>
+<figure><amp-img width="751" height="285" layout="intrinsic" src="/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/ad-placement-background-image.webp" alt="Icon displays at the Ad placement" on="tap:lightbox1" role="button" tabindex="0" aria-label="lightbox">
+        <amp-img fallback="" width="751" height="285" layout="intrinsic" src="/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/ad-placement-background-image.png" alt="Icon displays at the Ad placement" on="tap:lightbox1" role="button" tabindex="0" aria-label="lightbox"></amp-img>
       </amp-img></figure>
 
 <p>It is styled with the following CSS code:</p>
@@ -1533,7 +1533,7 @@ This is highly undesirable because it will give a very bad user experience.</p>
 <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">adstyle</span><span class="pi">:</span> <span class="no">false</span>
 </code></pre></div></div>
 
-<p><br /></p>]]></content><author><name>Chris KY Fung</name></author><category term="[&quot;feature&quot;, &quot;doc&quot;]" /><category term="Adsense" /><category term="_config" /><category term="styles" /><category term="AMP" /><summary type="html"><![CDATA[Ads Styles and Configuration]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/web-5771064_730.jpg" /><media:content medium="image" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/web-5771064_730.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Code Block</title><link href="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/code/" rel="alternate" type="text/html" title="Code Block" /><published>2021-03-21T08:00:00+08:00</published><updated>2021-08-02T11:14:00+08:00</updated><id>https://chriskyfung.github.io/amp-affiliately-jekyll-theme/code</id><content type="html" xml:base="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/code/"><![CDATA[<aside style="position: relative;">
+<p><br /></p>]]></content><author><name>Chris KY Fung</name></author><category term="[&quot;feature&quot;, &quot;doc&quot;]" /><category term="Adsense" /><category term="_config" /><category term="styles" /><category term="AMP" /><summary type="html"><![CDATA[Ads Styles and Configuration]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/web-5771064_730.jpg" /><media:content medium="image" url="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/web-5771064_730.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Code Block</title><link href="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/code/" rel="alternate" type="text/html" title="Code Block" /><published>2021-03-21T08:00:00+08:00</published><updated>2021-08-02T11:14:00+08:00</updated><id>https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/code</id><content type="html" xml:base="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/code/"><![CDATA[<aside style="position: relative;">
     <a href="#toc-skipped" class="screen-reader-only">Skip table of contents</a>
 </aside>
 
@@ -1682,7 +1682,7 @@ end
     <span class="nx">alert</span><span class="p">(</span><span class="dl">"</span><span class="s2">ajax error response type </span><span class="dl">"</span><span class="o">+</span><span class="nx">type</span><span class="p">);</span>
   <span class="p">}</span>
 <span class="p">});</span>
-</code></pre></div></div>]]></content><author><name>Chris</name></author><category term="[&quot;doc&quot;, &quot;feature&quot;]" /><category term="code" /><category term="markdown" /><category term="demo" /><summary type="html"><![CDATA[The demos and docs for Code Snippets with Syntex Highlighting.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/ubuntu-3145957_640.png" /><media:content medium="image" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/ubuntu-3145957_640.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Media</title><link href="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/media/" rel="alternate" type="text/html" title="Media" /><published>2021-02-25T18:42:00+08:00</published><updated>2021-02-25T18:42:00+08:00</updated><id>https://chriskyfung.github.io/amp-affiliately-jekyll-theme/media</id><content type="html" xml:base="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/media/"><![CDATA[<aside style="position: relative;">
+</code></pre></div></div>]]></content><author><name>Chris</name></author><category term="[&quot;doc&quot;, &quot;feature&quot;]" /><category term="code" /><category term="markdown" /><category term="demo" /><summary type="html"><![CDATA[The demos and docs for Code Snippets with Syntex Highlighting.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/ubuntu-3145957_640.png" /><media:content medium="image" url="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/ubuntu-3145957_640.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Media</title><link href="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/media/" rel="alternate" type="text/html" title="Media" /><published>2021-02-25T18:42:00+08:00</published><updated>2021-02-25T18:42:00+08:00</updated><id>https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/media</id><content type="html" xml:base="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/media/"><![CDATA[<aside style="position: relative;">
     <a href="#toc-skipped" class="screen-reader-only">Skip table of contents</a>
 </aside>
 
@@ -1728,7 +1728,7 @@ end
 </code></pre></div></div>
 
 <p><strong>Sample:</strong></p>
-<amp-img src="/amp-affiliately-jekyll-theme/assets/images/science-in-hd-37-obwmRiAI-unsplash_1024x683.jpg" width="1024" height="683" layout="responsive"></amp-img>
+<amp-img src="/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/science-in-hd-37-obwmRiAI-unsplash_1024x683.jpg" width="1024" height="683" layout="responsive"></amp-img>
 <p>Advanced bi-additives stabilize the vanadium electrolyte at higher energy content and in a wider temperature range at Pacific Northwest National Laboratories.
 <span>Photo by <a href="https://unsplash.com/@scienceinhd?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Science in HD</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
 
@@ -1767,8 +1767,8 @@ end
 </ul>
 
 <p>Sample:</p>
-<figure><amp-img width="1024" height="683" layout="intrinsic" src="/amp-affiliately-jekyll-theme/assets/images/lucas-vasques-9vnACvX2748-unsplash_1024x683.webp" alt="Photo captured during office hours of a company in Brazil." on="tap:lightbox1" role="button" tabindex="0" aria-label="lightbox">
-        <amp-img fallback="" width="1024" height="683" layout="intrinsic" src="/amp-affiliately-jekyll-theme/assets/images/lucas-vasques-9vnACvX2748-unsplash_1024x683.jpg" alt="Photo captured during office hours of a company in Brazil." on="tap:lightbox1" role="button" tabindex="0" aria-label="lightbox"></amp-img>
+<figure><amp-img width="1024" height="683" layout="intrinsic" src="/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/lucas-vasques-9vnACvX2748-unsplash_1024x683.webp" alt="Photo captured during office hours of a company in Brazil." on="tap:lightbox1" role="button" tabindex="0" aria-label="lightbox">
+        <amp-img fallback="" width="1024" height="683" layout="intrinsic" src="/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/lucas-vasques-9vnACvX2748-unsplash_1024x683.jpg" alt="Photo captured during office hours of a company in Brazil." on="tap:lightbox1" role="button" tabindex="0" aria-label="lightbox"></amp-img>
       </amp-img></figure>
 <p>Photo captured during office hours of a company in Brazil.
 <span>Photo by <a href="https://unsplash.com/@luvqs?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Lucas Vasques</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
@@ -1784,8 +1784,8 @@ end
 
 <p>Sample:</p>
 
-<figure><amp-img width="1024" height="682" layout="responsive" src="/amp-affiliately-jekyll-theme/assets/images/science-in-hd-N4-deIU3kQI-unsplash_1024x682.webp" alt="Image in Media" on="tap:lightbox1" role="button" tabindex="0" aria-label="lightbox">
-        <amp-img fallback="" width="1024" height="682" layout="responsive" src="/amp-affiliately-jekyll-theme/assets/images/science-in-hd-N4-deIU3kQI-unsplash_1024x682.jpg" alt="Image in Media" on="tap:lightbox1" role="button" tabindex="0" aria-label="lightbox"></amp-img>
+<figure><amp-img width="1024" height="682" layout="responsive" src="/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/science-in-hd-N4-deIU3kQI-unsplash_1024x682.webp" alt="Image in Media" on="tap:lightbox1" role="button" tabindex="0" aria-label="lightbox">
+        <amp-img fallback="" width="1024" height="682" layout="responsive" src="/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/science-in-hd-N4-deIU3kQI-unsplash_1024x682.jpg" alt="Image in Media" on="tap:lightbox1" role="button" tabindex="0" aria-label="lightbox"></amp-img>
       </amp-img><figcaption>NREL researcher holds a perovskite ink painted cell. NREL researchers have developed an interdigitated back contact solar cell design in which the metals and transport materials are solution processed by either ink jet or spray coating. Combined with a perovskite ink formulation with a low boiling point (&lt;80 C) allows "paintable" solar cells.<br /><span>Photo by <a href="https://unsplash.com/@scienceinhd?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Science in HD</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></figcaption></figure>
 
 <h4 id="image-with-link">Image with Link</h4>
@@ -1797,8 +1797,8 @@ end
 
 <p>Sample:</p>
 
-<figure><a href="https://unsplash.com/photos/NP6JLl_2C-c"><amp-img width="1024" height="683" layout="responsive" src="/amp-affiliately-jekyll-theme/assets/images/science-in-hd-NP6JLl_2C-c-unsplash_1024x683.webp" alt="Image in Media">
-        <amp-img fallback="" width="1024" height="683" layout="responsive" src="/amp-affiliately-jekyll-theme/assets/images/science-in-hd-NP6JLl_2C-c-unsplash_1024x683.jpg" alt="Image in Media"></amp-img>
+<figure><a href="https://unsplash.com/photos/NP6JLl_2C-c"><amp-img width="1024" height="683" layout="responsive" src="/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/science-in-hd-NP6JLl_2C-c-unsplash_1024x683.webp" alt="Image in Media">
+        <amp-img fallback="" width="1024" height="683" layout="responsive" src="/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/science-in-hd-NP6JLl_2C-c-unsplash_1024x683.jpg" alt="Image in Media"></amp-img>
       </amp-img></a><figcaption><span>Photo by <a href="https://unsplash.com/@scienceinhd?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Science in HD</a> on <a href="https://unsplash.com/photos/37-obwmRiAI?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></figcaption></figure>
 
 <p class="text-center"><strong>Click the Image Above to View the Original Image on Unsplash</strong> 👆</p>
@@ -1814,8 +1814,8 @@ end
 
 </span></code></pre></div></div>
 
-<figure><amp-img width="96" height="96" layout="intrinsic" src="/amp-affiliately-jekyll-theme/assets/images/favicon_96x96.webp" alt="Image in Media">
-        <amp-img fallback="" width="96" height="96" layout="intrinsic" src="/amp-affiliately-jekyll-theme/assets/images/favicon_96x96.png" alt="Image in Media"></amp-img>
+<figure><amp-img width="96" height="96" layout="intrinsic" src="/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/favicon_96x96.webp" alt="Image in Media">
+        <amp-img fallback="" width="96" height="96" layout="intrinsic" src="/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/favicon_96x96.png" alt="Image in Media"></amp-img>
       </amp-img></figure>
 
 <hr />
@@ -1829,8 +1829,8 @@ end
 
 </code></pre></div></div>
 
-<figure class="text-center shadow-none"><amp-img width="96" height="96" layout="intrinsic" src="/amp-affiliately-jekyll-theme/assets/images/favicon_96x96.webp" alt="Image in Media" on="tap:lightbox1" role="button" tabindex="0" aria-label="lightbox">
-        <amp-img fallback="" width="96" height="96" layout="intrinsic" src="/amp-affiliately-jekyll-theme/assets/images/favicon_96x96.png" alt="Image in Media" on="tap:lightbox1" role="button" tabindex="0" aria-label="lightbox"></amp-img>
+<figure class="text-center shadow-none"><amp-img width="96" height="96" layout="intrinsic" src="/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/favicon_96x96.webp" alt="Image in Media" on="tap:lightbox1" role="button" tabindex="0" aria-label="lightbox">
+        <amp-img fallback="" width="96" height="96" layout="intrinsic" src="/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/favicon_96x96.png" alt="Image in Media" on="tap:lightbox1" role="button" tabindex="0" aria-label="lightbox"></amp-img>
       </amp-img></figure>
 
 <p>Sample 2:</p>
@@ -1840,8 +1840,8 @@ end
 
 </code></pre></div></div>
 
-<figure class="text-center fa-rotate-180"><amp-img width="96" height="96" layout="intrinsic" src="/amp-affiliately-jekyll-theme/assets/images/favicon_96x96.webp" alt="Image in Media" on="tap:lightbox1" role="button" tabindex="0" aria-label="lightbox">
-        <amp-img fallback="" width="96" height="96" layout="intrinsic" src="/amp-affiliately-jekyll-theme/assets/images/favicon_96x96.png" alt="Image in Media" on="tap:lightbox1" role="button" tabindex="0" aria-label="lightbox"></amp-img>
+<figure class="text-center fa-rotate-180"><amp-img width="96" height="96" layout="intrinsic" src="/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/favicon_96x96.webp" alt="Image in Media" on="tap:lightbox1" role="button" tabindex="0" aria-label="lightbox">
+        <amp-img fallback="" width="96" height="96" layout="intrinsic" src="/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/favicon_96x96.png" alt="Image in Media" on="tap:lightbox1" role="button" tabindex="0" aria-label="lightbox"></amp-img>
       </amp-img></figure>
 
 <hr />
@@ -1879,9 +1879,9 @@ end
   <script type="application/json">
     {
       "vars" : {
-        "gtag_id": "UA-72575541-9",
+        "gtag_id": "UA-192636660-1",
         "config" : {
-          "UA-72575541-9": { "groups": "default" }
+          "UA-192636660-1": { "groups": "default" }
         }
       },
       "triggers": {
@@ -1963,7 +1963,7 @@ end
   </div>
 </amp-audio>
 
-<p><br /></p>]]></content><author><name>Chris KY Fung</name></author><category term="[&quot;feature&quot;, &quot;doc&quot;]" /><category term="image" /><category term="audio" /><category term="youtube" /><category term="AMP" /><category term="styles" /><category term="demo" /><summary type="html"><![CDATA[The demos and docs for Images, Videos, and Audios in AMP.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/digital-1985681_730.png" /><media:content medium="image" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/digital-1985681_730.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Red Riding Hood</title><link href="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/2018/01/12/red-riding" rel="alternate" type="text/html" title="Red Riding Hood" /><published>2018-01-12T00:00:00+08:00</published><updated>2018-01-12T00:00:00+08:00</updated><id>https://chriskyfung.github.io/amp-affiliately-jekyll-theme/2018/01/12/red-riding</id><content type="html" xml:base="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/2018/01/12/red-riding"><![CDATA[<p>The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the protagonist herself with the troublesome wolf curled at her feet. Produced by the Boston-based publisher Louis Prang, this is the first in their “Doll Series”, a set of five “die-cut” books, known also as shape books — the other titles being Robinson Crusoe, Goody Two-Shoes (also written by Red Riding Hood author Lydia Very), Cinderella, and King Winter.</p>
+<p><br /></p>]]></content><author><name>Chris KY Fung</name></author><category term="[&quot;feature&quot;, &quot;doc&quot;]" /><category term="image" /><category term="audio" /><category term="youtube" /><category term="AMP" /><category term="styles" /><category term="demo" /><summary type="html"><![CDATA[The demos and docs for Images, Videos, and Audios in AMP.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/digital-1985681_730.png" /><media:content medium="image" url="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/digital-1985681_730.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Red Riding Hood</title><link href="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/2018/01/12/red-riding" rel="alternate" type="text/html" title="Red Riding Hood" /><published>2018-01-12T00:00:00+08:00</published><updated>2018-01-12T00:00:00+08:00</updated><id>https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/2018/01/12/red-riding</id><content type="html" xml:base="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/2018/01/12/red-riding"><![CDATA[<p>The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the protagonist herself with the troublesome wolf curled at her feet. Produced by the Boston-based publisher Louis Prang, this is the first in their “Doll Series”, a set of five “die-cut” books, known also as shape books — the other titles being Robinson Crusoe, Goody Two-Shoes (also written by Red Riding Hood author Lydia Very), Cinderella, and King Winter.</p>
 
 <p>An 1868 Prang catalogue would later claim that such “books in the shape of a regular paper Doll… originated with us”.</p>
 
@@ -1973,7 +1973,7 @@ end
 
 <p>The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes.</p>
 
-<p>As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original — which sees Little Red Riding Hood being gobbled up as well as her grandmother — is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.</p>]]></content><author><name>sal</name></author><category term="sample" /><category term="left sidebar" /><summary type="html"><![CDATA[The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the protagonist herself with the troublesome wolf curled at her feet. Produced by the Boston-based publisher Louis Prang, this is the first in their “Doll Series”, a set of five “die-cut” books, known also as shape books — the other titles being Robinson Crusoe, Goody Two-Shoes (also written by Red Riding Hood author Lydia Very), Cinderella, and King Winter.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/3.jpg" /><media:content medium="image" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/3.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Is Intelligence Enough</title><link href="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/2018/01/12/is-intelligence-enough" rel="alternate" type="text/html" title="Is Intelligence Enough" /><published>2018-01-12T00:00:00+08:00</published><updated>2018-01-12T00:00:00+08:00</updated><id>https://chriskyfung.github.io/amp-affiliately-jekyll-theme/2018/01/12/is-intelligence-enough</id><content type="html" xml:base="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/2018/01/12/is-intelligence-enough"><![CDATA[<p>Education must also train one for quick, resolute and effective thinking. To think incisively and to think for one’s self is very difficult.</p>
+<p>As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original — which sees Little Red Riding Hood being gobbled up as well as her grandmother — is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.</p>]]></content><author><name>sal</name></author><category term="sample" /><category term="left sidebar" /><summary type="html"><![CDATA[The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the protagonist herself with the troublesome wolf curled at her feet. Produced by the Boston-based publisher Louis Prang, this is the first in their “Doll Series”, a set of five “die-cut” books, known also as shape books — the other titles being Robinson Crusoe, Goody Two-Shoes (also written by Red Riding Hood author Lydia Very), Cinderella, and King Winter.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/3.jpg" /><media:content medium="image" url="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/3.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Is Intelligence Enough</title><link href="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/2018/01/12/is-intelligence-enough" rel="alternate" type="text/html" title="Is Intelligence Enough" /><published>2018-01-12T00:00:00+08:00</published><updated>2018-01-12T00:00:00+08:00</updated><id>https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/2018/01/12/is-intelligence-enough</id><content type="html" xml:base="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/2018/01/12/is-intelligence-enough"><![CDATA[<p>Education must also train one for quick, resolute and effective thinking. To think incisively and to think for one’s self is very difficult.</p>
 
 <blockquote>
   <p>We are prone to let our mental life become invaded by legions of half truths, prejudices, and propaganda. At this point, I often wonder whether or not education is fulfilling its purpose. A great majority of the so-called educated people do not think logically and scientifically.</p>
@@ -1985,4 +1985,4 @@ end
 
 <p>The late Eugene Talmadge, in my opinion, possessed one of the better minds of Georgia, or even America. Moreover, he wore the Phi Beta Kappa key. By all measuring rods, Mr. Talmadge could think critically and intensively; yet he contends that I am an inferior being. Are those the types of men we call educated?</p>
 
-<p>We must remember that intelligence is not enough. Intelligence plus character–that is the goal of true education. The complete education gives one not only power of concentration, but worthy objectives upon which to concentrate. The broad education will, therefore, transmit to one not only the accumulated knowledge of the race but also the accumulated experience of social living.</p>]]></content><author><name>sal</name></author><category term="sample" /><summary type="html"><![CDATA[Education must also train one for quick, resolute and effective thinking. To think incisively and to think for one’s self is very difficult.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/5.jpg" /><media:content medium="image" url="https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/5.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>We must remember that intelligence is not enough. Intelligence plus character–that is the goal of true education. The complete education gives one not only power of concentration, but worthy objectives upon which to concentrate. The broad education will, therefore, transmit to one not only the accumulated knowledge of the race but also the accumulated experience of social living.</p>]]></content><author><name>sal</name></author><category term="sample" /><summary type="html"><![CDATA[Education must also train one for quick, resolute and effective thinking. To think incisively and to think for one’s self is very difficult.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/5.jpg" /><media:content medium="image" url="https://nhamngoctuananh.github.io/pages/chriskyfung/amp-affiliately-jekyll-theme/assets/images/5.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
