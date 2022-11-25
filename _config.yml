@@ -2,8 +2,7 @@
 name: "anhhangxom.news"
 title: "AMP Affiliately Jekyll Theme"
 description: "Tin tức nổi bật"
-url: https://chriskyfung.github.io
-baseurl: '/amp-affiliately-jekyll-theme'
+url: https://nhamngoctuananh.github.io
 favicon: 'assets/images/favicon.png'
 logo: 'assets/images/logo-plainSVG.svg'
 permalink: /:year/:month/:day/:title
@@ -58,7 +57,7 @@ amp_disqus:
 cse_id: 011006674894885990812:tjln7k0nyjx
 
 # Analytics
-google_analytics: 'UA-72575541-9' # Google Analytics Tracking ID
+google_analytics: 'UA-192636660-1' # Google Analytics Tracking ID
 gtm: 'GTM-WQMQK3X' # Google Tag Manager ID
 
 # Google Ads
@@ -81,8 +80,8 @@ buymeacoffee: chriskyfung
 
 # Copyright Start Year
 copyright:
-  owner: Chris KY FUNG
-  link: https://chriskyfung.github.io/
+  owner: Anh hàng xóm
+  link: https://nhamngoctuananh.github.io/
 
 # Plugins
 plugins:
@@ -124,7 +123,7 @@ webp:
   enabled: false
 
   # The quality of the webp conversion 0 to 100 (where 100 is least lossy)
-  quality: 75
+  quality: 100
 
   # List of directories containing images to optimize, nested directories will only be checked if `nested` is true
   # By default the generator will search for a folder called `/img` under the site root and process all jpg, png and tiff image files found there.
