@@ -1,30 +1,23 @@
 {%- if site.amp_disqus -%}
-<div class="comments mt-5">
-  <button class="btn btn-outline-dark py-2 px-5 d-block w-100 show-comments"><i class="fa fa-comments text-muted"></i>
-      &nbsp; Load Comments</button>
-  <div id="comments">
-      <h4 class="mb-4">Comments</h4>
-      <div class="article-post">
-
-          {% if page.isGithubComments == true %}
-          <script src="https://giscus.app/client.js" data-repo="nhamngoctuananh/nhamngoctuananh.github.io"
-              data-repo-id="R_kgDOGi2Xag" data-category="Q&A" data-category-id="DIC_kwDOGi2Xas4CRbIn"
-              data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="1"
-              data-input-position="top" data-theme="github-light" data-lang="vi" data-loading="lazy"
-              crossorigin="anonymous" async>
-              </script>
-
-          {% else %}
-          <p style="text-align:center; ">
-              <div id="fb-root"></div>
-              <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-numposts="5"  data-width="100%"></div>
-          </p>
-          {% endif %}
-
-      </div>
-
-  </div>
+  <div class="disqus">
+    <p style="text-align:center; ">
+      <div id="fb-root"></div>
+      <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-numposts="5"  data-width="100%"></div>
+  </p>
+    <div overflow style="background-color: #0003;display: block;position: relative;">
+      <button class="btn btn-dark" aria-label="Load more comments" tabindex="0"
+        style="margin: .5em 50%; transform: translateX(-50%);">
+        Load more
+      </button>
+    </div>
+    <div placeholder>Loading Disqus Comments...</div>
+    <div fallback>
+      Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </div>
+  </amp-iframe>
 </div>
-<style> /*Facebook comment*/ .fb_iframe_widget, .fb_iframe_widget span,.fb_iframe_widget span iframe[style] { min-width: 100% !important; width: 100% !important; } </style>
-
+<p style="text-align:center; ">
+  <div id="fb-root"></div>
+  <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-numposts="5"  data-width="100%"></div>
+</p>
 {%- endif -%}
