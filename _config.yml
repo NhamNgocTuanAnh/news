@@ -20,11 +20,11 @@ nav:
   local:
     items:
       - name: Features
-        url: category/feature/
+        url: news/category/feature/
       - name: Docs
-        url: category/doc/
+        url: news/category/doc/
       - name: Samples
-        url: category/sample/
+        url: news/category/sample/
     menu: true
     title:
       limit: 40
