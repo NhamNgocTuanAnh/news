@@ -289,7 +289,7 @@ span.post-read-more a:hover {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .intro {
-  background-image: url( "https://chriskyfung.github.io/amp-affiliately-jekyll-theme/assets/images/head.svg" );
+  background-image: url( "assets/images/head.webp" );
   background-size: contain;
   margin-top: -87px;
   margin-bottom: 3.5rem;
